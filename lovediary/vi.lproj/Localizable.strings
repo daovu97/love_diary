@@ -1,0 +1,472 @@
+
+/* Love Diary */
+"appName"                           = "Nhật ký tình yêu";
+
+/* Anniversary */
+"tabBarItemPlanner"                 = "Kỷ Niệm";
+
+/* Diary */
+"tabBarItemCalendar"                = "Nhật Ký";
+
+/* Diary */
+"diaryScreenTitle"                  = "Nhật Ký";
+
+/* Gallery */
+"tabBarItemPhotos"                  = "Thư Viện";
+
+/* Settings */
+"tabBarItemSettings"                = "Cài Đặt";
+
+/* Events */
+"tabBarItemEvents"                  = "Sự kiện";
+
+/* OK */
+"ok"                                = "Đồng ý";
+
+/* Yes */
+"yes"                               = "Đúng";
+
+/* Cancel */
+"cancel"                            = "Hủy bỏ";
+
+/* Delete */
+"delete"                            = "Xóa";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askSavePhotoPermission"            = "Ứng dụng này cần sử dụng chức năng Ảnh của iOS để lưu ảnh vào thiết bị của bạn. Bạn có thể điều chỉnh quyền trong Cài Đặt";
+
+/* Please allow access to \"All Photos\" on the settings app to insert photos from your library. */
+"askPhotoPermission"                = "Vui lòng cấp quyền \"Tất cả ảnh\" ở phần Cài đặt để thêm ảnh từ thư viện ảnh của bạn";
+
+/* Cannot access the camera. Please grant access to the camera in the Settings app. */
+"askCameraPermission"               = "Không thể sử dụng Máy Ảnh. Xin hãy cấp quyền truy cập trong phần Cài Đặt.";
+
+/* Open Setting app */
+"openSettingApp"                    = "Mở trong ứng dụng cài đặt";
+
+/* You have reached the limit of adding photos */
+"reachLimitImageError"              = "Bạn đã đến giới hạn thêm ảnh";
+
+/* Done */
+"done"                              = "Xong";
+
+/* Gallery */
+"galeryScreenTitle"                 = "Thư Viện";
+
+/* Settings */
+"settingScreenTitle"                = "Cài Đặt";
+
+/* Name */
+"name"                              = "Tên";
+
+/* Icloud And Backup */
+"icloudSettingTitle"                = "Icloud và Sao lưu";
+
+/* Diary Font Interface */
+"diaryFontSettingTitle"             = "Giao diện phông chữ nhật ký";
+
+/* Remove Ads */
+"removeAdsSettingTitle"             = "Xóa quảng cáo";
+
+/* Restore Purchase */
+"restoreIAPSettingTitle"            = "Khôi phục mua hàng";
+
+/* Themes */
+"themeSettingTitle"                 = "Chủ đề";
+
+/* Passcode */
+"passcodeSettingTitle"              = "Mật mã";
+
+/* Languages */
+"languageSettingTitle"              = "Ngôn ngữ";
+
+/* Data Export */
+"dataExportSettingTitle"            = "Xuất dữ liệu";
+
+/* Contact us */
+"helpSettingTitle"                  = "Gửi thông tin phản hồi";
+
+/* About application */
+"aboutAppSettingTitle"              = "Về ứng dụng";
+
+/* Delete All Data */
+"deleteAllSettingTitle"             = "Xóa toàn bộ dữ liệu";
+
+/* Anniversary day */
+"startDateSettingTitle"             = "Ngày kỷ niệm";
+
+/* Appearance */
+"apperanceSettingTitle"             = "Giao diện";
+
+/* Anniversary */
+"anniversaryHeaderSettingTitle"     = "Kỷ niệm";
+
+/* Background Image */
+"backgroundImageSettingTitle"       = "Ảnh nền";
+
+/* Background */
+"backgroundImageScreenTitle"        = "Ảnh nền";
+
+/* How to Set Your App Language */
+"languageChangeConfirmTitle"        = "Cài đặt ngôn ngữ ứng dụng của bạn";
+
+/* Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want. */
+"languageChangeConfirmMessage"      = "Do từng phiên bản ios trên điện thoại của bạn, có các bước khác nhau để thay đổi ngôn ngữ ứng dụng của bạn. \n\n1. Tiếp tục đến màn hình tiếp theo. \n2 Nhấn vào Ngôn ngữ để chọn ngôn ngữ bạn muốn.";
+
+/* Continue */
+"continueLabel"                     = "Tiếp tục";
+
+/* Do you want to remove Ads? */
+"removeAdsConfirmLabel"             = "Bạn có muốn mở khóa cao cấp không?";
+
+/* Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer. */
+"sharedAnalyticDetail"              = "Giúp chúng tôi cải thiện chất lượng và hiệu suất của ứng dụng này bằng cách gửi dữ liệu sử dụng (dữ liệu ẩn danh) cho nhà phát triển.";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askToSavePhotoPermision"           = "Ứng dụng này yêu cầu quyền sử dụng iOS Photos để lưu hình ảnh vào thư viện của bạn. Vui lòng thay đổi quyền trong ứng dụng Cài đặt.";
+
+/* Love Diary */
+"shareAppName"                      = "Nhật ký tình yêu";
+
+/* Analysis & Improvement */
+"analyticLabel"                     = "Phân tích & Cải tiến";
+
+/* Review on AppStore */
+"reviewOnAppstore"                  = "Đánh giá trên AppStore";
+
+/* Send app to friends */
+"sendToFriends"                     = "Giới thiệu ứng dụng cho bạn bè";
+
+/* Device name */
+"iosNameOfDeviceMailSignature"      = "Tên thiết bị";
+
+/* Love Diary Feedback /Contact */
+"subjectForFeedbackAndQuestion"     = "Nhật ký tình yêu Phản hồi và Liên Hệ";
+
+/* Version */
+"versionOfApplicationMailSignature" = "Phiên Bản";
+
+/* E-mail account is not set up. Please set up in settings app. */
+"setupEmailMessage"                 = "Tài khoản e-mail chưa được thiết lập. Vui lòng thiết lập trong ứng dụng cài đặt.";
+
+/* Set up */
+"setupEmailConfirm"                 = "Cài đặt";
+
+/* Font Size */
+"fontSizeSettingTitle"              = "Cỡ chữ";
+
+/* Line Height */
+"lineHeightSettingTitle"            = "Chiều cao giữa các dòng";
+
+/* Sample text . \nAdjust text size, line spacing and set it as your favorite character. */
+"fontSettingSampleTextTitle"        = "Văn bản mẫu. \nĐiều chỉnh kích thước văn bản, khoảng cách dòng và đặt nó làm ký tự yêu thích của bạn.";
+
+/* You reach the limit of adding background images. */
+"maxInputBackgroundAsk"             = "Bạn đạt đến giới hạn thêm ảnh nền";
+
+/* Share as Image */
+"shareAsImageTitle"                 = "Chia sẻ ảnh";
+
+/* Share as PDF */
+"sharePDFTitle"                     = "Chia sẻ bằng PDF";
+
+/* Bright Pink */
+"themeName0"                        = "Bright Pink";
+
+/* Neon Pink */
+"themeName1"                        = "Neon Pink";
+
+/* Hot Pink */
+"themeName2"                        = "Hot Pink";
+
+/* Spring Green */
+"themeName3"                        = "Spring Green";
+
+/* Neon Green */
+"themeName4"                        = "Neon Green";
+
+/* Maya Blue */
+"themeName5"                        = "Maya Blue";
+
+/* Tangerine */
+"themeName6"                        = "Tangerine";
+
+/* Midnight */
+"themeName7"                        = "Midnight";
+
+/* Year */
+"year"                              = "Năm";
+
+/* Month */
+"month"                             = "Tháng";
+
+/* Day */
+"day"                               = "Ngày";
+
+/* Hour */
+"hour"                              = "Giờ";
+
+/* january */
+"january"                           = "Tháng Một";
+
+/* febuary */
+"febuary"                           = "Tháng Hai";
+
+/* march */
+"march"                             = "Tháng Ba";
+
+/* april */
+"april"                             = "Tháng Tư";
+
+/* may */
+"may"                               = "Tháng Năm";
+
+/* june */
+"june"                              = "Tháng Sáu";
+
+/* july */
+"july"                              = "Tháng Bảy";
+
+/* august */
+"august"                            = "Tháng Tám";
+
+/* september */
+"september"                         = "Tháng Chín";
+
+/* october */
+"october"                           = "Tháng Mười";
+
+/* november */
+"november"                          = "Tháng Mười Một";
+
+/* december */
+"december"                          = "Tháng Mười Hai";
+
+/* %@ items found */
+"numberOfResults"                   = "Tìm thấy %@ nhật ký";
+
+/* Search diary */
+"searchDiaryPlaceHolder"            = "Tìm nhật ký";
+
+/* No Diary Found */
+"searchNoItemFound"                 = "Không tìm thấy nhật ký nào!";
+
+/* Male */
+"male"                              = "Nam";
+
+/* Female */
+"female"                            = "Nữ";
+
+/* When did your love begin? */
+"startLoveSettingDetailTitle"       = "Tình yêu của bạn bắt đầu từ khi nào?";
+
+/* Create your passcode */
+"createPasscodeTitle"               = "Tạo mật mã của bạn";
+
+/* Enter your passcode */
+"enterYourPasscodeTitle"            = "Nhập mật mã của bạn";
+
+/* Confirm your pincode */
+"confirmPincode"                    = "Xác nhận mã pin của bạn";
+
+/* Enter Passcode */
+"enterPasscode"                     = "Nhập mật mã";
+
+/* Set Passcode */
+"setPasscode"                       = "Thiết lập mật mã";
+
+/* Unlock with %@ */
+"usingSensorTitle"                  = "Mở khóa bằng %@";
+
+/* Change passcode */
+"changePasscodeTitle"               = "Thay đổi mật mã";
+
+/* Turn off passcode */
+"turnOffPasscodeTitle"              = "Tắt mật mã";
+
+/* Are you want to delete it, this action cannot be restored */
+"deleteDiaryConfirm"                = "Bạn có muốn xóa nó không, tác vụ này không thể khôi phục được";
+
+/* Create new diary */
+"createNewDiary"                    = "Tạo nhật ký mới";
+
+/* There is no image to show */
+"noImageTitle"                      = "Không có hình ảnh để hiển thị";
+
+/* Privacy and Policy */
+"privacyAndPolicyLabel"             = "Chính sách và Quyền riêng tư";
+
+/* Lock Immediately */
+"lockImmediatelyTitle"              = "Khóa ngay lập tức";
+
+/* Valentine's Day */
+"valentineDayTitle"                 = "Ngày lễ tình nhân";
+
+/* White day */
+"whiteDayTitle"                     = "White day";
+
+/* 1st anniversary of love */
+"oneYearAnniversaryTitle"           = "Kỉ niệm 1 năm yêu nhau";
+
+/* 2nd anniversary of love */
+"twoYearAnniversaryTitle"           = "Kỉ niệm 2 năm yêu nhau";
+
+/* 3rd anniversary of love */
+"threeYearAnniversaryTitle"         = "Kỉ niệm 3 năm yêu nhau";
+
+/* Today */
+"todayLabel"                        = "Hôm\nnay";
+
+/* Save */
+"saveLabel"                         = "Lưu";
+
+/* None */
+"none"                              = "Không";
+
+/* At event time */
+"atEventTime"                       = "Tại thời điểm sự kiện";
+
+/* 5 minutes before */
+"fiveMinusBefore"                   = "5 phút trước";
+
+/* 10 minutes before */
+"tenMinusBefore"                    = "10 phút trước";
+
+/* 20 minutes before */
+"tweentyMinusBefore"                = "20 phút trước";
+
+/* 30 minutes before */
+"thirtyMinusBefore"                 = "30 phút trước";
+
+/* 1 hour before */
+"oneHourBefore"                     = "1 giờ trước";
+
+/* 2 hours before */
+"twoHourBefor"                      = "2 giờ trước";
+
+/* 3 hours before */
+"threeHourBefore"                   = "3 giờ trước";
+
+/* 1 day before */
+"oneDayBefore"                      = "1 ngày trước";
+
+/* 2 days before */
+"twoDayBefore"                      = "2 ngày trước";
+
+/* 3 days before */
+"ThreeDayBefore"                    = "3 ngày trước";
+
+/* 1 week before */
+"oneWeekBefore"                     = "1 tuần trước";
+
+/* 2 weaks before */
+"twoWeekBefore"                     = "2 tuần trước";
+
+/* 3 weaks before */
+"threeWeekBefore"                   = "3 tuần trước";
+
+/* 1 month before */
+"oneMonthBefore"                    = "1 tháng trước";
+
+/* 2 months before */
+"twoMonthBefore"                    = "2 tháng trước";
+
+/* 3 months before */
+"threeMonthBefore"                  = "3 tháng trước";
+
+/* 1 year before */
+"oneYearBefore"                     = "1 năm trước";
+
+/* 2 years before */
+"twoYearBefore"                     = "2 năm trước";
+
+/* Reminder */
+"reminderTypeTitle"                 = "Thông báo";
+
+/* Discard Change */
+"discartChangeLabel"                = "Hủy thay đổi";
+
+/* Open */
+"openEventNotificationTitle"        = "Mở";
+
+/* Search Events */
+"searchEventPlaceHolder"            = "Tìm kiếm sự kiện";
+
+/* Outdated Events */
+"outDateEventScreenTitle"           = "Sự kiện đã qua";
+
+/* You reach max selection */
+"reachChoseLimitError"              = "Bạn đạt đến lựa chọn tối đa";
+
+/* New Event */
+"addNewEventTitle"                  = "Sự kiện mới";
+
+/* days ago */
+"dayAgo"                            = "ngày trước";
+
+/* days */
+"days"                              = "ngày";
+
+/* Title */
+"eventTitlePlaceHolder"             = "Tiêu đề";
+
+/* Note */
+"eventDetailPlaceHolder"            = "Ghi chú";
+
+/* Pin */
+"pinTitle"                          = "Ghim";
+
+/* Date */
+"dateTitle"                         = "Ngày";
+
+/* time */
+"timeTitle"                         = "Giờ";
+
+/* Reminder time */
+"reminderTimeTitle"                 = "Thời gian thông báo";
+
+/* There is no event to show */
+"noEventTitle"                      = "Không có sự kiện để hiển thị.";
+
+/* You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app. */
+"requestNotificationMessageTitle"   = "Bạn cần cho phép quyền thông báo để tạo Sự kiện có Thời gian nhắc nhở. Vui lòng thay đổi quyền trong ứng dụng Cài đặt.";
+
+"premiumTitle" = "Các tính năng chỉ dành cho người dùng cao cấp";
+"unlimitBackgroundTitle" = "Ảnh nền kỷ niệm không giới hạn";
+"unlimitBackgroundDetailTitle" = "Không giới hạn thêm hình nền kỷ niệm.";
+"removeAdsTitle" = "Không quảng cáo";
+"removeAdsDetailTitle" = "Loại bỏ tất cả các quảng cáo.";
+"moreFuncionTitle" = "Các tính năng khác";
+"moreFuncionDetailTitle" = "Nhiều tính năng hơn trong tương lai.";
+"purchaseButtonTitle" = "Mở khóa cao cấp";
+"restoreButtonTitle" = "Khôi phục mua hàng";
+
+/* ICloud backup */
+"ic01iCloudBackupSettingTitleLabel"          = "Sao lưu & đồng bộ iCloud";
+"ic01Title"                                  = "Sao lưu iCloud";
+"ic01ExistsBackupStatus"                     = "Dữ liệu sao lưu";
+"ic01NotExistsBackupStatus"                  = "Không sao lưu";
+"ic01UpdateDate"                             = "Ngày cập nhật";
+"ic01CreateIcloudBackup"                     = "Tạo bản sao lưu";
+"ic01OverrideIcloudBackup"                   = "Ghi đè lên bản sao lưu";
+"ic01RestoreFromIcloudBackup"                = "Khôi phục từ bản sao lưu";
+"ic01RemoveIcloudBackup"                     = "Xóa bản sao lưu";
+"ic01OverrideDialogTitle"                    = "Sao lưu bản dữ liệu mới nhất của ứng dụng hiện tại. Bạn có muốn ghi đè lên không? Thao tác này sẽ không thể được hủy bỏ.";
+"ic01OverrideDialogConfirmButtonTitle"       = "Ghi đè";
+"ic01RestoreDialogTitle"                     = "Phục hồi dữ liệu từ bản sao lưu. Bạn có chắc muốn xóa dữ liệu trong ứng dụng hiện tại và ghi đè lên? Thao tác này sẽ không thể được hủy bỏ.";
+"ic01RestoreDialogConfirmButtonTitle"        = "Khôi phục";
+"ic01RemoveDialogTitle"                      = "Xóa dữ liệu sao lưu. Bạn có chắc không?";
+"ic01RemoveDialogConfirmButtonTitle"         = "Xóa";
+"ic01DialogCancelTitle"                      = "Hủy bỏ";
+"ic01IcloudBackupErrorTitle"                 = "Đã có lỗi xảy ra";
+"ic01IcloudBackupNotAvailableErrorTitle"     = "iCloud drive hiện tại không khả dụng. Vui lòng đăng nhập iCloud để cấp quyền và bật iCloud drive cho ứng dụng trong phần cài đặt.";
+"ic01OldICloudBackupTitle"                   = "Dữ liệu sao lưu iCloud cũ";
+"ic01ExistsOldBackupStatus"                  = "Dữ liệu sao lưu cũ";
+"ic01ServerBusyCKErrorTitle"                 = "Máy chủ đang bận, vui lòng thử lại sau.";
+"ic01RetryCKErrorTitle"                      = "Hãy thử lại trong vòng %@ giây.";
+"ic01NotAuthenticatedCKErrorTitle"           = "iCloud không có sẵn hoặc bạn chưa đăng nhập iCloud. Vui lòng kiểm tra lại tài khoản của bạn.";
+"ic01NetworkFailureCKErrorTitle"             = "Không thể kết nối tới máy chủ. Vui lòng kiểm tra kết nối mạng.";
+"ic01QuotaExceededCKErrorTitle"              = "Dung lượng iCloud đã đầy. Hãy kiểm tra dung lượng iCloud của bạn.";
+"ic01ServiceUnavailableCKErrorTitle"         = "Dịch vụ không có sẵn.";
+"backupContainTitle" = "The backup contains only diarys and events data";
+"feedbackDetailMessage" = "Sẽ thật tuyệt nếu chúng tôi nhận được phản hồi từ bạn để cải thiện chất lượng của chúng tôi.";

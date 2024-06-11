@@ -1,0 +1,473 @@
+
+/* Love Diary */
+"appName"                           = "恋愛日記";
+
+/* Anniversary */
+"tabBarItemPlanner"                 = "記念";
+
+/* Diary */
+"tabBarItemCalendar"                = "日記";
+
+/* Diary */
+"diaryScreenTitle"                  = "日記";
+
+/* Gallery */
+"tabBarItemPhotos"                  = "ギャラリー";
+
+/* Settings */
+"tabBarItemSettings"                = "設定";
+
+/* Events */
+"tabBarItemEvents"                  = "イベント";
+
+/* OK */
+"ok"                                = "OK";
+
+/* Yes */
+"yes"                               = "はい";
+
+/* Cancel */
+"cancel"                            = "キャンセル";
+
+/* Delete */
+"delete"                            = "削除";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askSavePhotoPermission"            = "画像を端末に保存するために、写真機能へのアクセス権限を許可する必要があります。アプリの設定で設定を変更してください。";
+
+/* Please allow access to \"All Photos\" on the settings app to insert photos from your library. */
+"askPhotoPermission"                = "写真を選択するために、このアプリの設定で「写真」の項目を「すべての写真」にしてアクセスを許可してください。";
+
+/* Cannot access the camera. Please grant access to the camera in the Settings app. */
+"askCameraPermission"               = "カメラにアクセスできません。設定アプリでカメラへのアクセス権を付与してください。";
+
+/* Open Setting app */
+"openSettingApp"                    = "設定アプリを開く";
+
+/* You have reached the limit of adding photos */
+"reachLimitImageError"              = "写真の追加制限に達しました";
+
+/* Done */
+"done"                              = "完了";
+
+/* Gallery */
+"galeryScreenTitle"                 = "ギャラリー";
+
+/* Settings */
+"settingScreenTitle"                = "設定";
+
+/* Name */
+"name"                              = "名前";
+
+/* Icloud And Backup */
+"icloudSettingTitle"                = "Icloudとバックアップ";
+
+/* Diary Font Interface */
+"diaryFontSettingTitle"             = "日記フォントインターフェース";
+
+/* Remove Ads */
+"removeAdsSettingTitle"             = "広告を削除";
+
+/* Restore Purchase */
+"restoreIAPSettingTitle"            = "購入商品を復元する";
+
+/* Themes */
+"themeSettingTitle"                 = "テーマ";
+
+/* Passcode */
+"passcodeSettingTitle"              = "パスコード";
+
+/* Languages */
+"languageSettingTitle"              = "言語";
+
+/* Data Export */
+"dataExportSettingTitle"            = "データのエクスポート";
+
+/* Contact us */
+"helpSettingTitle"                  = "フィードバックを送信する";
+
+/* About application */
+"aboutAppSettingTitle"              = "アプリケーションについて";
+
+/* Delete All Data */
+"deleteAllSettingTitle"             = "すべてのデータを削除する";
+
+/* Anniversary day */
+"startDateSettingTitle"             = "記念日";
+
+/* Appearance */
+"apperanceSettingTitle"             = "外観";
+
+/* Anniversary */
+"anniversaryHeaderSettingTitle"     = "記念";
+
+/* Background Image */
+"backgroundImageSettingTitle"       = "背景画像";
+
+/* Background */
+"backgroundImageScreenTitle"        = "バックグラウンド";
+
+/* How to Set Your App Language */
+"languageChangeConfirmTitle"        = "アプリの言語を設定する方法";
+
+/* Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want. */
+"languageChangeConfirmMessage"      = "スマートフォンのアップデートにより、アプリの言語を変更する手順が異なります。\n\n1. 次の画面に進みます。\n2.言語をタップして、希望の言語を選択します。";
+
+/* Continue */
+"continueLabel"                     = "継続する";
+
+/* Do you want to remove Ads? */
+"removeAdsConfirmLabel"             = "プレミアムのロックを解除しますか？";
+
+/* Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer. */
+"sharedAnalyticDetail"              = "使用状況データ（匿名データ）を開発者に送信して、このアプリの品質とパフォーマンスの向上にご協力ください。";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askToSavePhotoPermision"           = "このアプリでは、iOSフォトを使用して画像をライブラリに保存する許可が必要です。設定アプリで権限を変更してください。";
+
+/* Love Diary */
+"shareAppName"                      = "恋愛日記";
+
+/* Analysis & Improvement */
+"analyticLabel"                     = "分析と改善";
+
+/* Review on AppStore */
+"reviewOnAppstore"                  = "AppStoreでのレビュー";
+
+/* Send app to friends */
+"sendToFriends"                     = "友達にアプリを紹介する";
+
+/* Device name */
+"iosNameOfDeviceMailSignature"      = "デバイスモデル名";
+
+/* Love Diary Feedback /Contact */
+"subjectForFeedbackAndQuestion"     = "恋愛日記の フィードバック・お問い合わせ";
+
+/* Version */
+"versionOfApplicationMailSignature" = "バージョン";
+
+/* E-mail account is not set up. Please set up in settings app. */
+"setupEmailMessage"                 = "メールアカウントが設定されていません。設定アプリで設定してください。";
+
+/* Set up */
+"setupEmailConfirm"                 = "設定";
+
+/* Font Size */
+"fontSizeSettingTitle"              = "フォントサイズ";
+
+/* Line Height */
+"lineHeightSettingTitle"            = "行間";
+
+/* Sample text . \nAdjust text size, line spacing and set it as your favorite character. */
+"fontSettingSampleTextTitle"        = "サンプルテキスト 。 \ nテキストサイズ、行間を調整し、お気に入りの文字として設定します。";
+
+/* You reach the limit of adding background images. */
+"maxInputBackgroundAsk"             = "これ以上の背景画像は追加できません。";
+
+/* Share as Image */
+"shareAsImageTitle"                 = "画像として共有";
+
+/* Share as PDF */
+"sharePDFTitle"                     = "PDFとして共有";
+
+/* Bright Pink */
+"themeName0"                        = "Bright Pink";
+
+/* Neon Pink */
+"themeName1"                        = "Neon Pink";
+
+/* Hot Pink */
+"themeName2"                        = "Hot Pink";
+
+/* Spring Green */
+"themeName3"                        = "Spring Green";
+
+/* Neon Green */
+"themeName4"                        = "Neon Green";
+
+/* Maya Blue */
+"themeName5"                        = "Maya Blue";
+
+/* Tangerine */
+"themeName6"                        = "Tangerine";
+
+/* Midnight */
+"themeName7"                        = "Midnight";
+
+/* Year */
+"year"                              = "年";
+
+/* Month */
+"month"                             = "月";
+
+/* Day */
+"day"                               = "日";
+
+/* Hour */
+"hour"                              = "時間";
+
+/* january */
+"january"                           = "一月";
+
+/* febuary */
+"febuary"                           = "二月";
+
+/* march */
+"march"                             = "三月";
+
+/* april */
+"april"                             = "四月";
+
+/* may */
+"may"                               = "五月";
+
+/* june */
+"june"                              = "六月";
+
+/* july */
+"july"                              = "七月";
+
+/* august */
+"august"                            = "八月";
+
+/* september */
+"september"                         = "九月";
+
+/* october */
+"october"                           = "十月";
+
+/* november */
+"november"                          = "十一月";
+
+/* december */
+"december"                          = "十二月";
+
+/* %@ items found */
+"numberOfResults"                   = "%@件見つかりました。";
+
+/* Search diary */
+"searchDiaryPlaceHolder"            = "日記を検索";
+
+/* No Diary Found */
+"searchNoItemFound"                 = "日記が見つかりません";
+
+/* Male */
+"male"                              = "男";
+
+/* Female */
+"female"                            = "女";
+
+/* When did your love begin? */
+"startLoveSettingDetailTitle"       = "いつ彼女・彼氏ができましたか";
+
+/* Create your passcode */
+"createPasscodeTitle"               = "パスコードを作成する";
+
+/* Enter your passcode */
+"enterYourPasscodeTitle"            = "PINコードを入力してください";
+
+/* Confirm your pincode */
+"confirmPincode"                    = "PINコードを確認してください";
+
+/* Enter Passcode */
+"enterPasscode"                     = "パスコードを入力してください";
+
+/* Set Passcode */
+"setPasscode"                       = "パスコードを設定してください";
+
+/* Unlock with %@ */
+"usingSensorTitle"                  = "%@でロックを解除";
+
+/* Change passcode */
+"changePasscodeTitle"               = "パスコードを変更する";
+
+/* Turn off passcode */
+"turnOffPasscodeTitle"              = "パスコードをオフにする";
+
+/* Are you want to delete it, this action cannot be restored */
+"deleteDiaryConfirm"                = "削除しますか？このアクションは復元できません";
+
+/* Create new diary */
+"createNewDiary"                    = "新しい日記を作成する";
+
+/* There is no image to show */
+"noImageTitle"                      = "表示する画像がありません";
+
+/* Privacy and Policy */
+"privacyAndPolicyLabel"             = "プライバシーとポリシー";
+
+/* Lock Immediately */
+"lockImmediatelyTitle"              = "すぐにロックする";
+
+/* Valentine's Day */
+"valentineDayTitle"                 = "バレンタイン・デー";
+
+/* White day */
+"whiteDayTitle"                     = "ホワイトデー";
+
+/* 1st anniversary of love */
+"oneYearAnniversaryTitle"           = "交際1周年";
+
+/* 2nd anniversary of love */
+"twoYearAnniversaryTitle"           = "交際2周年";
+
+/* 3rd anniversary of love */
+"threeYearAnniversaryTitle"         = "交際3周年";
+
+/* Today */
+"todayLabel"                        = "今日";
+
+/* Save */
+"saveLabel"                         = "保存";
+
+/* None */
+"none"                              = "なし";
+
+/* At event time */
+"atEventTime"                       = "イベント時";
+
+/* 5 minutes before */
+"fiveMinusBefore"                   = "5分前";
+
+/* 10 minutes before */
+"tenMinusBefore"                    = "10分前";
+
+/* 20 minutes before */
+"tweentyMinusBefore"                = "20分前";
+
+/* 30 minutes before */
+"thirtyMinusBefore"                 = "30分前";
+
+/* 1 hour before */
+"oneHourBefore"                     = "1時間前";
+
+/* 2 hours before */
+"twoHourBefor"                      = "2時間前";
+
+/* 3 hours before */
+"threeHourBefore"                   = "3時間前";
+
+/* 1 day before */
+"oneDayBefore"                      = "1日前";
+
+/* 2 days before */
+"twoDayBefore"                      = "2日前";
+
+/* 3 days before */
+"ThreeDayBefore"                    = "3日前";
+
+/* 1 week before */
+"oneWeekBefore"                     = "1週間前";
+
+/* 2 weaks before */
+"twoWeekBefore"                     = "2週間前";
+
+/* 3 weaks before */
+"threeWeekBefore"                   = "3週間前";
+
+/* 1 month before */
+"oneMonthBefore"                    = "1ヶ月前";
+
+/* 2 months before */
+"twoMonthBefore"                    = "2ヶ月前";
+
+/* 3 months before */
+"threeMonthBefore"                  = "3ヶ月前";
+
+/* 1 year before */
+"oneYearBefore"                     = "1年前";
+
+/* 2 years before */
+"twoYearBefore"                     = "2年前";
+
+/* Reminder */
+"reminderTypeTitle"                 = "リマインダー";
+
+/* Discard Change */
+"discartChangeLabel"                = "変更を破棄";
+
+/* Open */
+"openEventNotificationTitle"        = "開く";
+
+/* Search Events */
+"searchEventPlaceHolder"            = "イベントの検索";
+
+/* Outdated Events */
+"outDateEventScreenTitle"           = "過去のイベント";
+
+/* You reach max selection */
+"reachChoseLimitError"              = "これ以上の選択はできません";
+
+/* New Event */
+"addNewEventTitle"                  = "新しいイベント";
+
+/* days ago */
+"dayAgo"                            = "数日前";
+
+/* days */
+"days"                              = "日";
+
+/* Title */
+"eventTitlePlaceHolder"             = "タイトル";
+
+/* Note */
+"eventDetailPlaceHolder"            = "備考";
+
+/* Pin */
+"pinTitle"                          = "ピン";
+
+/* Date */
+"dateTitle"                         = "日付";
+
+/* time */
+"timeTitle"                         = "時間";
+
+/* Reminder time */
+"reminderTimeTitle"                 = "リマインダー時間";
+
+/* There is no event to show */
+"noEventTitle"                      = "表示するイベントはありません。";
+
+/* You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app. */
+"requestNotificationMessageTitle"   = "リマインダーを使用してイベントを作成するには、通知権限を許可する必要があります。 設定アプリで権限を変更してください。";
+
+"premiumTitle" = "プレミアムユーザー専用の機能";
+"unlimitBackgroundTitle" = "無制限の記念日の背景";
+"unlimitBackgroundDetailTitle" = "結婚記念日の背景画像を無制限に追加します。";
+"removeAdsTitle" = "広告なし";
+"removeAdsDetailTitle" = "ワンクリックですべての広告を削除します。";
+"moreFuncionTitle" = "その他の機能";
+"moreFuncionDetailTitle" = "将来的にはより多くの機能。";
+"purchaseButtonTitle" = "プレミアムを取得";
+"restoreButtonTitle" = "購入商品を復元する";
+
+/* ICloud backup */
+"ic01iCloudBackupSettingTitleLabel"          = "iCloudバックアップ・同期";
+"ic01Title"                                  = "iCloudバックアップ";
+"ic01ExistsBackupStatus"                     = "バックアップデータ";
+"ic01NotExistsBackupStatus"                  = "バックアップデータなし";
+"ic01UpdateDate"                             = "更新日時";
+"ic01CreateIcloudBackup"                     = "バックアップデータを作成する";
+"ic01OverrideIcloudBackup"                   = "バックアップを上書きする";
+"ic01RestoreFromIcloudBackup"                = "バックアップから復元する";
+"ic01RemoveIcloudBackup"                     = "バックアップを削除する";
+"ic01OverrideDialogTitle"                    = "今のこのアプリのデータを、最新のバックアップとします。上書きしますか？取り消しはできません。";
+"ic01OverrideDialogConfirmButtonTitle"       = "上書きする";
+"ic01RestoreDialogTitle"                     = "バックアップからデータを復元します。今このアプリにあるデータは消えて、上書きされますが、よろしいですか？取り消しはできません。";
+"ic01RestoreDialogConfirmButtonTitle"        = "復元する";
+"ic01RemoveDialogTitle"                      = "バックアップデータを削除します。よろしいですか？取り消しはできません。";
+"ic01RemoveDialogConfirmButtonTitle"         = "削除する";
+"ic01DialogCancelTitle"                      = "キャンセル";
+"ic01IcloudBackupErrorTitle"                 = "An error occurred";
+"ic01IcloudBackupNotAvailableErrorTitle"     = "iCloudの機能へのアクセスができません。設定アプリのApple IDの項目をタップして、「iCloud Drive」をオンにし、画面下部にあるこのアプリへの権限をオンにしてください。";
+"ic01OldICloudBackupTitle"                   = "旧iCloudバックアップ";
+"ic01ExistsOldBackupStatus"                  = "旧バックアップデータ";
+"ic01ServerBusyCKErrorTitle"                 = "iCloudサーバーの状態が一時的に利用できない状態です。あとで再試行してください。";
+"ic01RetryCKErrorTitle"                      = "%@秒後に再試行してください。";
+"ic01NotAuthenticatedCKErrorTitle"           = "iCloudが利用できないか、iCloudにサインインしていません。iCloudの設定をご確認ください。";
+"ic01NetworkFailureCKErrorTitle"             = "サーバーに接続できません。ネットワーク接続をご確認ください。";
+"ic01QuotaExceededCKErrorTitle"              = "iCloudがいっぱいです。iCloudディスクをご確認ください。";
+"ic01ServiceUnavailableCKErrorTitle"         = "サービスは現在、利用できません。";
+
+"backupContainTitle" = "バックアップには、日記とイベントデータのみが含まれます";
+"feedbackDetailMessage" = "品質向上のため、皆様からのフィードバックをいただければ幸いです。";

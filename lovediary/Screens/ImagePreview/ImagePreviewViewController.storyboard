@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image Preview View Controller-->
+        <scene sceneID="yiC-ec-A76">
+            <objects>
+                <viewController storyboardIdentifier="ImagePreviewViewController" id="Yac-Hl-fYX" customClass="ImagePreviewViewController" customModule="lovediary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rIK-Re-A8d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cq-gw-gPP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIT-sA-kXS">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem image="square.and.arrow.up" catalog="system" id="hwj-W7-jGv"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="t6d-O6-Ixk"/>
+                                    <barButtonItem image="tray.fill" catalog="system" id="qx9-hg-ctB"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UCe-2K-JwC"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2cq-gw-gPP" firstAttribute="leading" secondItem="UCe-2K-JwC" secondAttribute="leading" id="5Co-Js-Exe"/>
+                            <constraint firstItem="2cq-gw-gPP" firstAttribute="top" secondItem="rIK-Re-A8d" secondAttribute="top" id="KjA-cp-h1G"/>
+                            <constraint firstItem="PIT-sA-kXS" firstAttribute="leading" secondItem="UCe-2K-JwC" secondAttribute="leading" id="R88-Iw-30I"/>
+                            <constraint firstAttribute="bottom" secondItem="2cq-gw-gPP" secondAttribute="bottom" id="WBP-IL-ZQI"/>
+                            <constraint firstItem="PIT-sA-kXS" firstAttribute="bottom" secondItem="UCe-2K-JwC" secondAttribute="bottom" id="ZPD-K6-0JH"/>
+                            <constraint firstItem="PIT-sA-kXS" firstAttribute="trailing" secondItem="UCe-2K-JwC" secondAttribute="trailing" id="isn-Cg-8JF"/>
+                            <constraint firstItem="2cq-gw-gPP" firstAttribute="trailing" secondItem="UCe-2K-JwC" secondAttribute="trailing" id="yDq-iP-LU5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actionToolbar" destination="PIT-sA-kXS" id="U3u-Ys-qwd"/>
+                        <outlet property="collectionContainerView" destination="2cq-gw-gPP" id="lqq-a5-hgk"/>
+                        <outlet property="shareBarButton" destination="hwj-W7-jGv" id="0Al-pX-6b8"/>
+                        <outlet property="showDiaryBarButton" destination="qx9-hg-ctB" id="moU-fk-hZB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYo-sP-auU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100.00000000000001" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="tray.fill" catalog="system" width="128" height="88"/>
+    </resources>
+</document>

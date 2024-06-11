@@ -1,0 +1,23 @@
+//
+//  Release.xcconfig
+//  lovediary
+//
+//  Created by daovu on 10/03/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DV_APP_NAME = LoveDiary
+DV_APP_BUNDLE_ID = com.vudx65.lovediary
+DV_APP_NUMBER_MAX_DIARY_IMAGE = 10
+DV_APP_PRODUCT_IDENTIFY_ADS = com.vudx65.lovediary.removeAds
+DV_APP_APP_ID = 1560087708
+DV_MAX_INPUT_BACKGROUND = 4
+DV_GAD_APPLICATION_IDENTIFIER = ca-app-pub-2776488203801383~2708110504
+DV_GAD_AD_UNIT = ca-app-pub-2776488203801383/7082469786
+DV_SHOW_ADS_AFTER_DAY = 1
+DV_KEYCHAIN_PRIVATE_KEY = Private.keychain
+DV_MAIL_FEEDBACK = lovediary.contact@gmail.com
+DV_APP_PRIVACY_URL = https:/$()/lovediary99716103.wordpress.com
+DV_APP_FIREBASE_ENABLED = 1

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Anniversary View Controller-->
+        <scene sceneID="Ifv-fa-s5H">
+            <objects>
+                <viewController storyboardIdentifier="AnniversaryViewController" id="Rku-og-ZPZ" customClass="AnniversaryViewController" customModule="lovediary" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ijK-Uc-fnI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="LcK-1n-TRV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view alpha="0.14999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RHq-d4-WBf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8TB-K3-14J" customClass="LoveInfoView" customModule="lovediary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="149" width="414" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="PUB-U7-Pi5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wn6-eW-2Li" customClass="WatchDateTimeView" customModule="lovediary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="550.5" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="lUk-ko-u8b"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Fe-D6-x3k" customClass="LoveAnimationView" customModule="lovediary" customModuleProvider="target">
+                                <rect key="frame" x="124" y="275.5" width="166" height="165.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9Fe-D6-x3k" secondAttribute="height" multiplier="1:1" id="ZrT-4I-D1q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3SF-2f-udj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LcK-1n-TRV" firstAttribute="leading" secondItem="3SF-2f-udj" secondAttribute="leading" id="0JK-34-diE"/>
+                            <constraint firstItem="3SF-2f-udj" firstAttribute="trailing" secondItem="wn6-eW-2Li" secondAttribute="trailing" id="16O-MZ-UsE"/>
+                            <constraint firstItem="8TB-K3-14J" firstAttribute="width" secondItem="LcK-1n-TRV" secondAttribute="width" id="8Rs-Nh-rBd"/>
+                            <constraint firstItem="9Fe-D6-x3k" firstAttribute="width" secondItem="LcK-1n-TRV" secondAttribute="width" multiplier="0.4" id="C5N-lB-jD8"/>
+                            <constraint firstItem="9Fe-D6-x3k" firstAttribute="centerY" secondItem="ijK-Uc-fnI" secondAttribute="centerY" multiplier="0.8" id="HR1-ta-7jh"/>
+                            <constraint firstItem="8TB-K3-14J" firstAttribute="centerX" secondItem="ijK-Uc-fnI" secondAttribute="centerX" id="R5x-6V-Ky1"/>
+                            <constraint firstItem="LcK-1n-TRV" firstAttribute="trailing" secondItem="3SF-2f-udj" secondAttribute="trailing" id="d5b-LA-y21"/>
+                            <constraint firstAttribute="bottom" secondItem="LcK-1n-TRV" secondAttribute="bottom" id="ei3-uF-Jvh"/>
+                            <constraint firstItem="RHq-d4-WBf" firstAttribute="top" secondItem="ijK-Uc-fnI" secondAttribute="top" id="gLT-9A-a3k"/>
+                            <constraint firstItem="RHq-d4-WBf" firstAttribute="trailing" secondItem="3SF-2f-udj" secondAttribute="trailing" id="jqm-mI-Mvi"/>
+                            <constraint firstItem="wn6-eW-2Li" firstAttribute="leading" secondItem="3SF-2f-udj" secondAttribute="leading" id="sd7-aM-2El"/>
+                            <constraint firstItem="8TB-K3-14J" firstAttribute="centerY" secondItem="ijK-Uc-fnI" secondAttribute="centerY" multiplier="0.5" id="vOZ-rk-U3D"/>
+                            <constraint firstItem="LcK-1n-TRV" firstAttribute="top" secondItem="ijK-Uc-fnI" secondAttribute="top" id="wPI-Y4-8hv"/>
+                            <constraint firstItem="wn6-eW-2Li" firstAttribute="centerY" secondItem="ijK-Uc-fnI" secondAttribute="centerY" multiplier="1.34" id="wb1-Zy-aR5"/>
+                            <constraint firstAttribute="bottom" secondItem="RHq-d4-WBf" secondAttribute="bottom" id="xWj-hj-ZLV"/>
+                            <constraint firstItem="RHq-d4-WBf" firstAttribute="leading" secondItem="3SF-2f-udj" secondAttribute="leading" id="yBl-zO-Xtd"/>
+                            <constraint firstItem="9Fe-D6-x3k" firstAttribute="centerX" secondItem="ijK-Uc-fnI" secondAttribute="centerX" id="znD-HP-Ydx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="9Fe-D6-x3k" id="LeH-2O-y8M"/>
+                        <outlet property="backgroundImage" destination="LcK-1n-TRV" id="ELc-mE-yxg"/>
+                        <outlet property="dateTimeView" destination="wn6-eW-2Li" id="Ubi-ui-3aL"/>
+                        <outlet property="loveInforView" destination="8TB-K3-14J" id="8qc-UT-rfe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5c-QE-gbN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background1" width="1242" height="2688"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

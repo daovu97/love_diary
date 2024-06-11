@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  lovediary
+
+  Created by vu dao on 28/03/2021.
+  
+*/
+
+"CFBundleDisplayName" = "愛の日記";
+"CFBundleName" = "愛の日記";
+"NSCameraUsageDescription" = "写真を撮り、ノートに挿入するために必要です。";
+"NSPhotoLibraryAddUsageDescription" = "取得した画像データを共有や保存するために許可が必要です。";
+"NSPhotoLibraryUsageDescription" = "このアプリで利用する写真を選択します。「すべての写真へのアクセスを許可」して、今後の写真も利用できるようにしてください。";
+"NSFaceIDUsageDescription" = "このアプリは、顔認識を使用するにはFace IDの許可が必要です。";
+"NSUserTrackingUsageDescription" = "最適化した広告を表示するために利用します。\nアクティビティ情報は個人が特定されない形式ですのでご安心ください。";

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>DV_APP_APP_ID</key>
+	<string>$(DV_APP_APP_ID)</string>
+	<key>DV_APP_FIREBASE_ENABLED</key>
+	<string>$(DV_APP_FIREBASE_ENABLED)</string>
+	<key>DV_APP_NUMBER_MAX_DIARY_IMAGE</key>
+	<string>$(DV_APP_NUMBER_MAX_DIARY_IMAGE)</string>
+	<key>DV_APP_PRIVACY_URL</key>
+	<string>$(DV_APP_PRIVACY_URL)</string>
+	<key>DV_APP_PRODUCT_IDENTIFY_ADS</key>
+	<string>$(DV_APP_PRODUCT_IDENTIFY_ADS)</string>
+	<key>DV_GAD_AD_UNIT</key>
+	<string>$(DV_GAD_AD_UNIT)</string>
+	<key>DV_KEYCHAIN_PRIVATE_KEY</key>
+	<string>$(DV_KEYCHAIN_PRIVATE_KEY)</string>
+	<key>DV_MAIL_FEEDBACK</key>
+	<string>$(DV_MAIL_FEEDBACK)</string>
+	<key>DV_MAX_INPUT_BACKGROUND</key>
+	<string>$(DV_MAX_INPUT_BACKGROUND)</string>
+	<key>DV_SHOW_ADS_AFTER_DAY</key>
+	<string>$(DV_SHOW_ADS_AFTER_DAY)</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-2776488203801383~2708110504</string>
+</dict>
+</plist>

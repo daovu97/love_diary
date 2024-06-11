@@ -1,0 +1,145 @@
+Variables,English,English-UK,English-AU,Japanese,China-Simplifield,China-Traditional,Korean,Vietnamese
+appName,Love Diary,Love Diary,Love Diary,愛の日記,爱情日记,愛情日記,사랑 일기,Nhật ký tình yêu
+tabBarItemPlanner,Anniversary,Anniversary,Anniversary,記念日,周年纪念日,週年紀念日,기념일,Kỷ Niệm
+tabBarItemCalendar,Diary,Diary,Diary,日記,日记,日記,일기,Nhật Ký
+diaryScreenTitle,Diary,Diary,Diary,日記,日记,日記,일기,Nhật Ký
+tabBarItemPhotos,Gallery,Gallery,Gallery,ギャラリー,画廊,畫廊,갤러리,Thư Viện
+tabBarItemSettings,Settings,Settings,Settings,設定,设定值,設定值,설정,Cài Đặt
+tabBarItemEvents,Events,Events,Events,イベント,大事记,大事記,이벤트,Sự kiện
+ok,OK,OK,OK,OK,好的,好的,확인,Đồng ý
+yes,Yes,Yes,Yes,はい,是的,是的,예,Đúng
+cancel,Cancel,Cancel,Cancel,キャンセル,取消,取消,취소,Hủy bỏ
+delete,Delete,Delete,Delete,削除,删除,刪除,지우다,Xóa
+askSavePhotoPermission,This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.,This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.,This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.,画像を端末に保存するために、写真機能へのアクセス権限を許可する必要があります。アプリの設定で設定を変更してください。,此应用需要许可才能使用iOS照片将图像保存到您的媒体库。请在“设置”应用中更改权限。,此應用需要使用iOS照片將圖像保存到您的圖片庫的權限。請在“設置”應用中更改權限。,이 앱은 iOS 사진을 사용하여 이미지를 라이브러리에 저장할 수있는 권한이 필요합니다. 설정 앱에서 권한을 변경하세요.,Ứng dụng này cần sử dụng chức năng Ảnh của iOS để lưu ảnh vào thiết bị của bạn. Bạn có thể điều chỉnh quyền trong Cài Đặt
+askPhotoPermission,"Please allow access to \""All Photos\"" on the settings app to insert photos from your library.","Please allow access to \""All Photos\"" on the settings app to insert photos from your library.","Please allow access to \""All Photos\"" on the settings app to insert photos from your library.",写真を選択するために、このアプリの設定で「写真」の項目を「すべての写真」にしてアクセスを許可してください。,请允许访问设置应用程序上的 \“所有照片”\ ，以插入图库中的照片。,請允許訪問設置應用程序上的 \“所有照片”\，以插入圖庫中的照片。,"라이브러리의 사진을 삽입하려면 설정 앱의 \""모든 사진 \""에 대한 액세스를 허용하세요.","Vui lòng cấp quyền \""Tất cả ảnh\"" ở phần Cài đặt để thêm ảnh từ thư viện ảnh của bạn"
+askCameraPermission,Cannot access the camera. Please grant access to the camera in the Settings app.,Cannot access the camera. Please grant access to the camera in the Settings app.,Cannot access the camera. Please grant access to the camera in the Settings app.,カメラにアクセスできません。設定アプリでカメラへのアクセス権を付与してください。,无法访问相机。请在“设置”应用中授予对摄像机的访问权限。,無法訪問相機。請在“設置”應用中授予對攝像機的訪問權限。,카메라에 액세스 할 수 없습니다. 설정 앱에서 카메라에 대한 액세스 권한을 부여하세요.,Không thể sử dụng Máy Ảnh. Xin hãy cấp quyền truy cập trong phần Cài Đặt.
+openSettingApp,Open Setting app,Open Setting app,Open Setting app,設定アプリを開く,开启设定应用程式,開啟設定應用程式,설정 앱 열기,Mở trong ứng dụng cài đặt
+reachLimitImageError,You have reached the limit of adding photos,You have reached the limit of adding photos,You have reached the limit of adding photos,写真の追加制限に達しました,您已达到添加照片的限制,您已達到添加照片的限制,사진 추가 한도에 도달했습니다.,Bạn đã đến giới hạn thêm ảnh
+done,Done,Done,Done,完了,完毕,完畢,끝난,Xong
+galeryScreenTitle,Gallery,Gallery,Gallery,ギャラリー,画廊,畫廊,갤러리,Thư Viện
+settingScreenTitle,Settings,Settings,Settings,設定,设定值,設定值,설정,Cài Đặt
+name,Name,Name,Name,名前,姓名,姓名,이름,Tên
+icloudSettingTitle,Icloud And Backup,Icloud And Backup,Icloud And Backup,Icloudとバックアップ,icloud和备份,icloud和備份,Icloud 및 백업,Icloud và Sao lưu
+diaryFontSettingTitle,Diary Font Interface,Diary Font Interface,Diary Font Interface,日記フォントインターフェース,日记字体界面,日記字體界面,일기 글꼴 인터페이스,Giao diện phông chữ nhật ký
+removeAdsSettingTitle,Remove Ads,Remove Ads,Remove Ads,広告を削除,移除广告,移除廣告,광고를 제거하다,Xóa quảng cáo
+restoreIAPSettingTitle,Restore Purchase,Restore Purchase,Restore Purchase,購入商品を復元する,恢复购买,恢復購買,구매 복원,Khôi phục mua hàng
+themeSettingTitle,Themes,Themes,Themes,テーマ,主题,主題,테마,Chủ đề
+passcodeSettingTitle,Passcode,Passcode,Passcode,パスコード,密码,密碼,비밀번호,Mật mã
+languageSettingTitle,Languages,Languages,Languages,言語,语言能力,語言能力,언어,Ngôn ngữ
+dataExportSettingTitle,Data Export,Data Export,Data Export,データのエクスポート,资料汇出,資料匯出,데이터 내보내기,Xuất dữ liệu
+helpSettingTitle,Contact us,Contact us,Contact us,お問い合わせ,联系我们,聯繫我們,문의하기,Liên hệ chúng tôi
+aboutAppSettingTitle,About application,About application,About application,アプリケーションについて,关于申请,關於申請,신청에 대해,Về ứng dụng
+deleteAllSettingTitle,Delete All Data,Delete All Data,Delete All Data,すべてのデータを削除する,删除所有数据,刪除所有數據,모든 데이터 삭제,Xóa toàn bộ dữ liệu
+startDateSettingTitle,Anniversary day,Anniversary day,Anniversary day,記念日,纪念日,紀念日,기념일,Ngày kỷ niệm
+apperanceSettingTitle,Appearance,Appearance,Appearance,外観,外貌,外貌,외관,Giao diện
+anniversaryHeaderSettingTitle,Anniversary,Anniversary,Anniversary,記念日,周年纪念日,週年紀念日,기념일,Kỷ niệm
+backgroundImageSettingTitle,Background Image,Background Image,Background Image,背景画像,背景图,背景圖,배경 이미지,Ảnh nền
+backgroundImageScreenTitle,Background,Background,Background,バックグラウンド,背景,背景,배경,Ảnh nền
+languageChangeConfirmTitle,How to Set Your App Language,How to Set Your App Language,How to Set Your App Language,アプリの言語を設定する方法,如何设定您的应用程式语言,如何設定您的應用程式語言,앱 언어를 설정하는 방법,Cài đặt ngôn ngữ ứng dụng của bạn
+languageChangeConfirmMessage,"Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want.","Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want.","Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want.",スマートフォンのアップデートにより、アプリの言語を変更するためのさまざまな手順があります。\n\n1. 次の画面に進みます。\n2.言語をタップして、必要な言語を選択します。,由于您的手机已更新，因此有不同的步骤来更改您的应用程序语言。\n\n1. 继续下一个屏幕。\n2.点击语言以选择所需的语言。,由於您的手機已更新，因此有不同的步驟來更改您的應用程序語言。\n\n1. 繼續下一個屏幕。\n2.點擊語言以選擇所需的語言。,휴대폰 업데이트로 인해 앱 언어를 변경하는 여러 단계가 있습니다.\n\n1. 다음 화면으로 이동하십시오.\n2.언어를 탭하여 원하는 언어를 선택하십시오.,"Do từng phiên bản ios trên điện thoại của bạn, có các bước khác nhau để thay đổi ngôn ngữ ứng dụng của bạn. \n\n1. Tiếp tục đến màn hình tiếp theo. \n2 Nhấn vào Ngôn ngữ để chọn ngôn ngữ bạn muốn."
+continueLabel,Continue,Continue,Continue,継続する,继续,繼續,계속하다,Tiếp tục
+removeAdsConfirmLabel,Do you want to remove Ads?,Do you want to remove Ads?,Do you want to remove Ads?,広告を削除しますか？,您要删除广告吗？,您要刪除廣告嗎？,광고를 제거 하시겠습니까?,Bạn có muốn xóa Quảng cáo không?
+sharedAnalyticDetail,Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer.,Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer.,Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer.,使用状況データ（匿名データ）を開発者に送信して、このアプリの品質とパフォーマンスの向上にご協力ください。,通过向开发人员发送使用情况数据（匿名数据）来帮助我们改善此应用的质量和性能。,此應用需要使用iOS照片將圖像保存到您的圖片庫的權限。請在“設置”應用中更改權限。,사용 데이터 (익명 데이터)를 개발자에게 전송하여이 앱의 품질과 성능을 개선 할 수 있도록 도와주세요.,Giúp chúng tôi cải thiện chất lượng và hiệu suất của ứng dụng này bằng cách gửi dữ liệu sử dụng (dữ liệu ẩn danh) cho nhà phát triển.
+askToSavePhotoPermision,This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.,This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.,This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.,このアプリでは、iOSフォトを使用して画像をライブラリに保存する許可が必要です。設定アプリで権限を変更してください。,此应用需要许可才能使用iOS照片将图像保存到您的媒体库。请在“设置”应用中更改权限。,此應用需要許可才能使用iOS照片將圖像保存到您的媒體庫。請在“設置”應用中更改權限。,이 앱은 iOS 사진을 사용하여 이미지를 라이브러리에 저장할 수있는 권한이 필요합니다. 설정 앱에서 권한을 변경하세요.,Ứng dụng này yêu cầu quyền sử dụng iOS Photos để lưu hình ảnh vào thư viện của bạn. Vui lòng thay đổi quyền trong ứng dụng Cài đặt.
+shareAppName,Love Diary,Love Diary,Love Diary,愛の日記,爱情日记,愛情日記,사랑 일기,Nhật ký tình yêu
+analyticLabel,Analysis & Improvement,Analysis & Improvement,Analysis & Improvement,分析と改善,分析与改进,分析與改進,분석 및 개선,Phân tích & Cải tiến
+reviewOnAppstore,Review on AppStore,Review on AppStore,Review on AppStore,AppStoreでのレビュー,在AppStore上进行评论,在AppStore上進行評論,AppStore에서 검토,Đánh giá trên AppStore
+sendToFriends,Send app to friends,Send app to friends,Send app to friends,友達にアプリを送る,将应用发送给朋友,將應用發送給朋友,친구에게 앱 보내기,Giới thiệu ứng dụng cho bạn bè
+iosNameOfDeviceMailSignature,Device name,Device name,Device name,装置名,设备名称,設備名稱,장치 이름,Tên thiết bị
+subjectForFeedbackAndQuestion,Love Diary Feedback /Contact,Love Diary Feedback /Contact,Love Diary Feedback /Contact,愛の日記 フィードバックと連絡先,Love Diary 反馈/联系,Love Diary 反饋/聯繫,러브 다이어리 피드백 / 연락처,Nhật ký tình yêu Phản hồi và Liên Hệ
+versionOfApplicationMailSignature,Version,Version,Version,バージョン,版本,版本,버전,Phiên Bản
+setupEmailMessage,E-mail account is not set up. Please set up in settings app.,E-mail account is not set up. Please set up in settings app.,E-mail account is not set up. Please set up in settings app.,メールアカウントが設定されていません。設定アプリで設定してください。,电子邮件帐户未设置。请在设置应用中进行设置。,電子郵件帳戶未設置。請在設置應用中進行設置。,이메일 계정이 설정되지 않았습니다. 설정 앱에서 설정하세요.,Tài khoản e-mail chưa được thiết lập. Vui lòng thiết lập trong ứng dụng cài đặt.
+setupEmailConfirm,Set up,Set up,Set up,セットアップ,设置,設置,설정,Cài đặt
+fontSizeSettingTitle,Font Size,Font Size,Font Size,フォントサイズ,字体大小,字體大小,글꼴 크기,Cỡ chữ
+lineHeightSettingTitle,Line Height,Line Height,Line Height,行の高さ,线高,線高,라인 높이,Chiều cao giữa các dòng
+fontSettingSampleTextTitle,"Sample text . \nAdjust text size, line spacing and set it as your favorite character.","Sample text . \nAdjust text size, line spacing and set it as your favorite character.","Sample text . \nAdjust text size, line spacing and set it as your favorite character.",サンプルテキスト 。 \ nテキストサイズ、行間隔を調整し、お気に入りの文字として設定します。,示范文本 。\n调整文本大小，行距并将其设置为您喜欢的字符。,示範文本 。\n調整文本大小，行距並將其設置為您喜歡的字符。,"샘플 텍스트.\n텍스트 크기, 줄 간격을 조정하고 좋아하는 문자로 설정하십시오.","Văn bản mẫu. \nĐiều chỉnh kích thước văn bản, khoảng cách dòng và đặt nó làm ký tự yêu thích của bạn."
+maxInputBackgroundAsk,You reach the limit of adding background images.,You reach the limit of adding background images.,You reach the limit of adding background images.,背景画像の追加の制限に達しました.,您达到了添加背景图像的极限。,您達到了添加背景圖像的極限。,배경 이미지 추가 제한에 도달했습니다.,Bạn đạt đến giới hạn thêm ảnh nền
+shareAsImageTitle,Share as Image,Share as Image,Share as Image,画像として共有,分享为图片,分享為圖片,이미지로 공유,Chia sẻ ảnh
+sharePDFTitle,Share as PDF,Share as PDF,Share as PDF,PDFとして共有,共享为PDF,共享為PDF,PDF로 공유,Chia sẻ bằng PDF
+themeName0,Bright Pink,Bright Pink,Bright Pink,Bright Pink,Bright Pink,Bright Pink,Bright Pink,Bright Pink
+themeName1,Neon Pink,Neon Pink,Neon Pink,Neon Pink,Neon Pink,Neon Pink,Neon Pink,Neon Pink
+themeName2,Hot Pink,Hot Pink,Hot Pink,Hot Pink,Hot Pink,Hot Pink,Hot Pink,Hot Pink
+themeName3,Spring Green,Spring Green,Spring Green,Spring Green,Spring Green,Spring Green,Spring Green,Spring Green
+themeName4,Neon Green,Neon Green,Neon Green,Neon Green,Neon Green,Neon Green,Neon Green,Neon Green
+themeName5,Maya Blue,Maya Blue,Maya Blue,Maya Blue,Maya Blue,Maya Blue,Maya Blue,Maya Blue
+themeName6,Tangerine,Tangerine,Tangerine,Tangerine,Tangerine,Tangerine,Tangerine,Tangerine
+themeName7,Midnight,Midnight,Midnight,Midnight,Midnight,Midnight,Midnight,Midnight
+year,Year,Year,Year,年,年,年,년,Năm
+month,Month,Month,Month,月,月,月,월,Tháng
+day,Day,Day,Day,日,日,日,일,Ngày
+hour,Hour,Hour,Hour,時間,小时,小時,시,Giờ
+january,january,january,january,一月,一月,一月,일월,Tháng Một
+febuary,febuary,febuary,febuary,二月,二月,二月,이월,Tháng Hai
+march,march,march,march,三月,三月,三月,삼월,Tháng Ba
+april,april,april,april,四月,四月,四月,사월,Tháng Tư
+may,may,may,may,五月,五月,五月,오월,Tháng Năm
+june,june,june,june,六月,六月,六月,유월,Tháng Sáu
+july,july,july,july,七月,七月,七月,칠월,Tháng Bảy
+august,august,august,august,八月,八月,八月,팔월,Tháng Tám
+september,september,september,september,九月,九月,九月,구월,Tháng Chín
+october,october,october,october,十月,十月,十月,시월,Tháng Mười
+november,november,november,november,十一月,十一月,十一月,십일월,Tháng Mười Một
+december,december,december,december,十二月,十二月,十二月,십이월,Tháng Mười Hai
+numberOfResults,%@ items found,%@ items found,%@ items found,%@件見つかりました。,找到%@项,找到%@項,%@ 개 항목을 찾았습니다.,Tìm thấy %@ nhật ký
+searchDiaryPlaceHolder,Search diary,Search diary,Search diary,日記を検索,搜索日记,搜索日記,일기 검색,Tìm nhật ký
+searchNoItemFound,No Diary Found,No Diary Found,No Diary Found,日記が見つかりません,找不到日记,找不到日記,일기를 찾을 수 없습니다,Không tìm thấy nhật ký nào!
+male,Male,Male,Male,男,男性,男性,남성,Nam
+female,Female,Female,Female,女,女性,女性,여자,Nữ
+startLoveSettingDetailTitle,When did your love begin?,When did your love begin?,When did your love begin?,あなたの愛はいつ始まりましたか？,你的爱从什么时候开始的？,你的愛從什麼時候開始的？,당신의 사랑은 언제 시작 되었습니까?,Tình yêu của bạn bắt đầu từ khi nào?
+createPasscodeTitle,Create your passcode,Create your passcode,Create your passcode,パスコードを作成する,创建密码,創建密碼,암호 생성,Tạo mật mã của bạn
+enterYourPasscodeTitle,Enter your passcode,Enter your passcode,Enter your passcode,PINコードを確認してください,输入密码,輸入密碼,비밀번호를 입력하세요,Nhập mật mã của bạn
+confirmPincode,Confirm your pincode,Confirm your pincode,Confirm your pincode,Confirm your pincode,确认您的密码,確認您的密碼,비밀번호 확인,Xác nhận mã pin của bạn
+enterPasscode,Enter Passcode,Enter Passcode,Enter Passcode,パスコードを入力してください,输入密码,輸入密碼,비밀번호 입력,Nhập mật mã
+setPasscode,Set Passcode,Set Passcode,Set Passcode,パスコードを設定,设置密码,設置密碼,비밀번호 설정,Thiết lập mật mã
+usingSensorTitle,Unlock with %@,Unlock with %@,Unlock with %@,%@でロックを解除,使用%@解锁,用％@解鎖,%@로 잠금 해제,Mở khóa bằng %@
+changePasscodeTitle,Change passcode,Change passcode,Change passcode,パスコードを変更する,更改密码,更改密碼,비밀번호 변경,Thay đổi mật mã
+turnOffPasscodeTitle,Turn off passcode,Turn off passcode,Turn off passcode,パスコードをオフにする,关闭密码,關閉密碼,암호 끄기,Tắt mật mã
+deleteDiaryConfirm,"Are you want to delete it, this action cannot be restored","Are you want to delete it, this action cannot be restored","Are you want to delete it, this action cannot be restored",削除しますか、このアクションは復元できません,您是否要删除它，此操作无法恢复,您是否要刪除它，此操作無法恢復,삭제 하시겠습니까?이 작업은 복원 할 수 없습니다.,"Bạn có muốn xóa nó không, tác vụ này không thể khôi phục được"
+createNewDiary,Create new diary,Create new diary,Create new diary,新しい日記を作成する,创建新日记,創建新日記,새 일기 만들기,Tạo nhật ký mới
+noImageTitle,There is no image to show,There is no image to show,There is no image to show,表示する画像がありません,没有图片可显示,沒有圖片可顯示,표시 할 이미지가 없습니다,Không có hình ảnh để hiển thị
+privacyAndPolicyLabel,Privacy and Policy,Privacy and Policy,Privacy and Policy,プライバシーとポリシー,私隐政策,私隱政策,개인 정보 보호 및 정책,Chính sách và Quyền riêng tư
+lockImmediatelyTitle,Lock Immediately,Lock Immediately,Lock Immediately,すぐにロックする,立即锁定,立即鎖定,즉시 잠금,Khóa ngay lập tức
+valentineDayTitle,Valentine's Day,Valentine's Day,Valentine's Day,バレンタイン・デー,情人节,情人節,발렌타인 데이,Ngày lễ tình nhân
+whiteDayTitle,White day,White day,White day,White day,White day,White day,White day,White day
+oneYearAnniversaryTitle,1st anniversary of love,1st anniversary of love,1st anniversary of love,愛の1周年,爱1周年,愛1周年,사랑의 1 주년,Kỉ niệm 1 năm yêu nhau
+twoYearAnniversaryTitle,2nd anniversary of love,2nd anniversary of love,2nd anniversary of love,愛の2周年,爱2周年,愛2週年,사랑의 2 주년,Kỉ niệm 2 năm yêu nhau
+threeYearAnniversaryTitle,3rd anniversary of love,3rd anniversary of love,3rd anniversary of love,愛の3周年,爱3周年,愛3週年,사랑의 3 주년,Kỉ niệm 3 năm yêu nhau
+todayLabel,Today,Today,Today,今日,今天,今天,오늘,Hôm nay
+saveLabel,Save,Save,Save,保存,保存,保存,저장,Lưu
+none,None,None,None,なし,没有,沒有,없음,Không
+atEventTime,At event time,At event time,At event time,イベント時,在活动时间,在活動時間,이벤트 시간에,Tại thời điểm sự kiện
+fiveMinusBefore,5 minutes before,5 minutes before,5 minutes before,5分前,5分钟前,5分鐘前,5 분 전,Trước 5 phút
+tenMinusBefore,10 minutes before,10 minutes before,10 minutes before,10分前,10分钟前,10分鐘前,10 분 전,Trước 10 phút
+tweentyMinusBefore,20 minutes before,20 minutes before,20 minutes before,20分前,20分钟前,20分鐘前e,20 분 전,Trước 20 phút
+thirtyMinusBefore,30 minutes before,30 minutes before,30 minutes before,30分前,30分钟前,30分鐘前,30 분 전,Trước 30 phút
+oneHourBefore,1 hour before,1 hour before,1 hour before,1時間前,1小时前,1小時前,1 시간 전,Trước 1 giờ
+twoHourBefor,2 hours before,2 hours before,2 hours before,2時間前,2小时前,2小時前,2 시간 전,Trước 2 giờ
+threeHourBefore,3 hours before,3 hours before,3 hours before,3時間前,3小时前,3小時前,3 시간 전,Trước 3 giờ
+oneDayBefore,1 day before,1 day before,1 day before,1日前,1天前,1天前,1 일전,Trước 1 ngày
+twoDayBefore,2 days before,2 days before,2 days before,2日前,2天前,2天前e,2 일전,Trước 2 ngày
+ThreeDayBefore,3 days before,3 days before,3 days before,3日前,3天前,3天前,3 일전,Trước 3 ngày
+oneWeekBefore,1 week before,1 week before,1 week before,1週間前,1周前,1週前,1 주전,Trước 1 tuần
+twoWeekBefore,2 weaks before,2 weaks before,2 weaks before,2週間前,2周前,2週前,2 주전,Trước 2 tuần
+threeWeekBefore,3 weaks before,3 weaks before,3 weaks before,3週間前,3周前,3週前,3 주전,Trước 3 tuần
+oneMonthBefore,1 month before,1 month before,1 month before,1ヶ月前,1个月前,1個月前,1 개월 전,Trước 1 tháng
+twoMonthBefore,2 months before,2 months before,2 months before,2ヶ月前,2个月前,2個月前,2 개월 전,Trước 2 tháng
+threeMonthBefore,3 months before,3 months before,3 months before,3ヶ月前,3个月前,3個月前,3 개월 전,Trước 3 tháng
+oneYearBefore,1 year before,1 year before,1 year before,1年前,1年前,1年前,1 년전,Trước 1 năm
+twoYearBefore,2 years before,2 years before,2 years before,2年前,2年前,2年前,2 년전,Trước 2 năm
+reminderTypeTitle,Reminder,Reminder,Reminder,リマインダー,提醒,提醒,조언,Thông báo
+discartChangeLabel,Discard Change,Discard Change,Discard Change,変更を破棄,放弃变更,放棄變更,변경 취소,Hủy thay đổi
+openEventNotificationTitle,Open,Open,Open,開いた,打开,打開,열다,Mở
+searchEventPlaceHolder,Search Events,Search Events,Search Events,イベントの検索,搜索事件,搜索事件,이벤트 검색,Tìm kiếm sự kiện
+outDateEventScreenTitle,Outdated Events,Outdated Events,Outdated Events,時代遅れのイベント,过时的活动,過時的活動,오래된 이벤트,Sự kiện đã qua
+reachChoseLimitError,You reach max selection,You reach max selection,You reach max selection,最大選択に達します,您达到最大选择,您達到最大選擇,최대 선택에 도달했습니다.,Bạn đạt đến lựa chọn tối đa
+addNewEventTitle,New Event,New Event,New Event,新しいイベント,新事件,新事件,새로운 이벤트,Sự kiện mới
+dayAgo,days ago,days ago,days ago,日前,天前,天前,일 전,ngày trước
+days,days,days,days,日,天,天,일,ngày
+eventTitlePlaceHolder,Title,Title,Title,タイトル,标题,標題,표제,Tiêu đề
+eventDetailPlaceHolder,Note,Note,Note,音符,笔记,筆記,노트,Ghi chú
+pinTitle,Pin,Pin,Pin,ピン,别针,別針,핀,Ghim
+dateTitle,Date,Date,Date,日付,日期,日期,데이트,Ngày
+timeTitle,time,time,time,時間,时间,時間,시각,Giờ
+reminderTimeTitle,Reminder time,Reminder time,Reminder time,リマインダー時間,提醒时间,提醒時間,알림 시간,Thời gian thông báo
+noEventTitle,There is no event to show,There is no event to show.,There is no event to show.,表示するイベントはありません。,没有活动可以显示。,沒有活動可以顯示。,표시 할 이벤트가 없습니다.,Không có sự kiện để hiển thị.
+requestNotificationMessageTitle,You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app.,You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app.,You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app.,リマインダーを使用してイベントを作成するには、通知権限を許可する必要があります。 設定アプリで権限を変更してください。,您需要允许通知权限才能创建带有提醒的事件. 请在“设置”应用中更改权限。,您需要允許通知權限才能使用提醒創建事件. 請在“設置”應用中更改權限。,알림이있는 이벤트를 만들려면 알림 권한을 허용해야합니다. 설정 앱에서 권한을 변경하세요.,Bạn cần cho phép quyền thông báo để tạo Sự kiện có Thời gian nhắc nhở. Vui lòng thay đổi quyền trong ứng dụng Cài đặt.

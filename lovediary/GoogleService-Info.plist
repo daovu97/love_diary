@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>547107463637-72h0mte3mfr5m4f57fgf5rtkcjslqtqs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.547107463637-72h0mte3mfr5m4f57fgf5rtkcjslqtqs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAuxXy8UvqEKfRQP4ONyLQM8pQ8UstGh0s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>547107463637</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vudx65.lovediary</string>
+	<key>PROJECT_ID</key>
+	<string>love-diary-93472</string>
+	<key>STORAGE_BUCKET</key>
+	<string>love-diary-93472.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:547107463637:ios:59435fa41094aa6ef29d5c</string>
+</dict>
+</plist>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photos View Controller-->
+        <scene sceneID="7zF-kn-W9c">
+            <objects>
+                <viewController storyboardIdentifier="PhotosViewController" id="Biz-W8-EI0" customClass="PhotosViewController" customModule="lovediary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JZR-VG-W37">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEe-0Z-ZnK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="3Yf-dM-Rqq">
+                                        <rect key="frame" x="74" y="410.5" width="266" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no images to show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tO5-gE-ojG" customClass="ThemeCommonColorLabel" customModule="lovediary" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="266" height="17"/>
+                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRv-FO-zTD">
+                                                <rect key="frame" x="42.5" y="41" width="181" height="34"/>
+                                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="4Bv-lJ-phz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Create new diary">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="3Yf-dM-Rqq" firstAttribute="centerY" secondItem="rEe-0Z-ZnK" secondAttribute="centerY" id="2XZ-tO-Jpf"/>
+                                    <constraint firstItem="3Yf-dM-Rqq" firstAttribute="centerX" secondItem="rEe-0Z-ZnK" secondAttribute="centerX" id="RlE-wb-bse"/>
+                                </constraints>
+                            </view>
+                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xbt-rt-uzr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SmQ-LM-Zx6">
+                                    <size key="itemSize" width="189" height="173"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="4" maxX="0.0" maxY="60"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GaleryImageCollectionViewCell" id="ugY-h5-aJt" customClass="GaleryImageCollectionViewCell" customModule="lovediary">
+                                        <rect key="frame" x="0.0" y="4" width="189" height="173"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0UZ-iQ-JcI">
+                                            <rect key="frame" x="0.0" y="0.0" width="189" height="173"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="es7-lo-Nls">
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="173"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="es7-lo-Nls" secondAttribute="bottom" id="4aj-lq-oV7"/>
+                                                <constraint firstItem="es7-lo-Nls" firstAttribute="leading" secondItem="0UZ-iQ-JcI" secondAttribute="leading" id="BBw-pI-cLv"/>
+                                                <constraint firstItem="es7-lo-Nls" firstAttribute="top" secondItem="0UZ-iQ-JcI" secondAttribute="top" id="itQ-Ab-DFF"/>
+                                                <constraint firstAttribute="trailing" secondItem="es7-lo-Nls" secondAttribute="trailing" id="sY4-3O-jPD"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="189" height="173"/>
+                                        <connections>
+                                            <outlet property="imageView" destination="es7-lo-Nls" id="wyw-yU-oEa"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="delegate" destination="Biz-W8-EI0" id="1zu-3k-Hec"/>
+                                </connections>
+                            </collectionView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Cz5-uC-b9C">
+                                <rect key="frame" x="12" y="810" width="390" height="41"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="U6v-y2-5l5"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="" image="rectangle.grid.1x2.fill" catalog="system"/>
+                                    <segment title="" image="square.grid.2x2.fill" catalog="system"/>
+                                    <segment title="" image="square.grid.3x2.fill" catalog="system"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gab-MB-Fla"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xbt-rt-uzr" firstAttribute="leading" secondItem="Gab-MB-Fla" secondAttribute="leading" id="3AN-xE-y5v"/>
+                            <constraint firstAttribute="bottom" secondItem="xbt-rt-uzr" secondAttribute="bottom" id="5mh-91-ibN"/>
+                            <constraint firstItem="xbt-rt-uzr" firstAttribute="top" secondItem="JZR-VG-W37" secondAttribute="top" id="6Uk-zh-LlL"/>
+                            <constraint firstItem="rEe-0Z-ZnK" firstAttribute="trailing" secondItem="Gab-MB-Fla" secondAttribute="trailing" id="ARd-7K-8gA"/>
+                            <constraint firstItem="Cz5-uC-b9C" firstAttribute="leading" secondItem="Gab-MB-Fla" secondAttribute="leading" constant="12" id="GQN-xV-Job"/>
+                            <constraint firstItem="xbt-rt-uzr" firstAttribute="trailing" secondItem="Gab-MB-Fla" secondAttribute="trailing" id="Koj-mj-Hxy"/>
+                            <constraint firstItem="Gab-MB-Fla" firstAttribute="trailing" secondItem="Cz5-uC-b9C" secondAttribute="trailing" constant="12" id="PXP-gQ-7TH"/>
+                            <constraint firstItem="rEe-0Z-ZnK" firstAttribute="leading" secondItem="Gab-MB-Fla" secondAttribute="leading" id="dHp-UU-EXW"/>
+                            <constraint firstItem="Gab-MB-Fla" firstAttribute="bottom" secondItem="Cz5-uC-b9C" secondAttribute="bottom" constant="12" id="jcp-55-8x0"/>
+                            <constraint firstItem="rEe-0Z-ZnK" firstAttribute="top" secondItem="JZR-VG-W37" secondAttribute="top" id="uMr-K9-MgY"/>
+                            <constraint firstAttribute="bottom" secondItem="rEe-0Z-ZnK" secondAttribute="bottom" id="yfv-Ne-W1g"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="xbt-rt-uzr" id="qgb-Ki-LJ8"/>
+                        <outlet property="createNewDiaryButton" destination="eRv-FO-zTD" id="7Ik-kW-zl4"/>
+                        <outlet property="noDataView" destination="rEe-0Z-ZnK" id="qgF-3r-kXy"/>
+                        <outlet property="noImageFountTitle" destination="tO5-gE-ojG" id="Te5-Cp-r8i"/>
+                        <outlet property="viewModeSegmented" destination="Cz5-uC-b9C" id="e8e-bO-T4j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIK-k1-xmO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166.66666666666669" y="92.410714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rectangle.grid.1x2.fill" catalog="system" width="128" height="101"/>
+        <image name="square.grid.2x2.fill" catalog="system" width="128" height="114"/>
+        <image name="square.grid.3x2.fill" catalog="system" width="128" height="80"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

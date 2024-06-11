@@ -1,0 +1,473 @@
+
+/* Love Diary */
+"appName"                           = "Love Diary";
+
+/* Anniversary */
+"tabBarItemPlanner"                 = "Anniversary";
+
+/* Diary */
+"tabBarItemCalendar"                = "Diary";
+
+/* Diary */
+"diaryScreenTitle"                  = "Diary";
+
+/* Gallery */
+"tabBarItemPhotos"                  = "Gallery";
+
+/* Settings */
+"tabBarItemSettings"                = "Settings";
+
+/* Events */
+"tabBarItemEvents"                  = "Events";
+
+/* OK */
+"ok"                                = "OK";
+
+/* Yes */
+"yes"                               = "Yes";
+
+/* Cancel */
+"cancel"                            = "Cancel";
+
+/* Delete */
+"delete"                            = "Delete";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askSavePhotoPermission"            = "This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.";
+
+/* Please allow access to \"All Photos\" on the settings app to insert photos from your library. */
+"askPhotoPermission"                = "Please allow access to \"All Photos\" on the settings app to insert photos from your library.";
+
+/* Cannot access the camera. Please grant access to the camera in the Settings app. */
+"askCameraPermission"               = "Cannot access the camera. Please grant access to the camera in the Settings app.";
+
+/* Open Setting app */
+"openSettingApp"                    = "Open Setting app";
+
+/* You have reached the limit of adding photos */
+"reachLimitImageError"              = "You have reached the limit of adding photos";
+
+/* Done */
+"done"                              = "Done";
+
+/* Gallery */
+"galeryScreenTitle"                 = "Gallery";
+
+/* Settings */
+"settingScreenTitle"                = "Settings";
+
+/* Name */
+"name"                              = "Name";
+
+/* Icloud And Backup */
+"icloudSettingTitle"                = "Icloud And Backup";
+
+/* Diary Font Interface */
+"diaryFontSettingTitle"             = "Diary Font Interface";
+
+/* Remove Ads */
+"removeAdsSettingTitle"             = "Remove Ads";
+
+/* Restore Purchase */
+"restoreIAPSettingTitle"            = "Restore Purchase";
+
+/* Themes */
+"themeSettingTitle"                 = "Themes";
+
+/* Passcode */
+"passcodeSettingTitle"              = "Passcode";
+
+/* Languages */
+"languageSettingTitle"              = "Languages";
+
+/* Data Export */
+"dataExportSettingTitle"            = "Data Export";
+
+/* Contact us */
+"helpSettingTitle"                  = "Send Feedback";
+
+/* About application */
+"aboutAppSettingTitle"              = "About Application";
+
+/* Delete All Data */
+"deleteAllSettingTitle"             = "Delete All Data";
+
+/* Anniversary day */
+"startDateSettingTitle"             = "Anniversary Day";
+
+/* Appearance */
+"apperanceSettingTitle"             = "Appearance";
+
+/* Anniversary */
+"anniversaryHeaderSettingTitle"     = "Anniversary";
+
+/* Background Image */
+"backgroundImageSettingTitle"       = "Background Image";
+
+/* Background */
+"backgroundImageScreenTitle"        = "Background";
+
+/* How to Set Your App Language */
+"languageChangeConfirmTitle"        = "How to Set Your App Language";
+
+/* Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want. */
+"languageChangeConfirmMessage"      = "Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want.";
+
+/* Continue */
+"continueLabel"                     = "Continue";
+
+/* Do you want to remove Ads? */
+"removeAdsConfirmLabel"             = "Do you want to unlock premium?";
+
+/* Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer. */
+"sharedAnalyticDetail"              = "Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer.";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askToSavePhotoPermision"           = "This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app.";
+
+/* Love Diary */
+"shareAppName"                      = "Love Diary";
+
+/* Analysis & Improvement */
+"analyticLabel"                     = "Analysis & Improvement";
+
+/* Review on AppStore */
+"reviewOnAppstore"                  = "Review on AppStore";
+
+/* Send app to friends */
+"sendToFriends"                     = "Send app to friends";
+
+/* Device name */
+"iosNameOfDeviceMailSignature"      = "Device name";
+
+/* Love Diary Feedback /Contact */
+"subjectForFeedbackAndQuestion"     = "Love Diary Feedback /Contact";
+
+/* Version */
+"versionOfApplicationMailSignature" = "Version";
+
+/* E-mail account is not set up. Please set up in settings app. */
+"setupEmailMessage"                 = "E-mail account is not set up. Please set up in settings app.";
+
+/* Set up */
+"setupEmailConfirm"                 = "Set up";
+
+/* Font Size */
+"fontSizeSettingTitle"              = "Font Size";
+
+/* Line Height */
+"lineHeightSettingTitle"            = "Line Height";
+
+/* Sample text . \nAdjust text size, line spacing and set it as your favorite character. */
+"fontSettingSampleTextTitle"        = "Sample text . \nAdjust text size, line spacing and set it as your favorite character.";
+
+/* You reach the limit of adding background images. */
+"maxInputBackgroundAsk"             = "You reach the limit of adding background images.";
+
+/* Share as Image */
+"shareAsImageTitle"                 = "Share as Image";
+
+/* Share as PDF */
+"sharePDFTitle"                     = "Share as PDF";
+
+/* Bright Pink */
+"themeName0"                        = "Bright Pink";
+
+/* Neon Pink */
+"themeName1"                        = "Neon Pink";
+
+/* Hot Pink */
+"themeName2"                        = "Hot Pink";
+
+/* Spring Green */
+"themeName3"                        = "Spring Green";
+
+/* Neon Green */
+"themeName4"                        = "Neon Green";
+
+/* Maya Blue */
+"themeName5"                        = "Maya Blue";
+
+/* Tangerine */
+"themeName6"                        = "Tangerine";
+
+/* Midnight */
+"themeName7"                        = "Midnight";
+
+/* Year */
+"year"                              = "Year";
+
+/* Month */
+"month"                             = "Month";
+
+/* Day */
+"day"                               = "Day";
+
+/* Hour */
+"hour"                              = "Hour";
+
+/* january */
+"january"                           = "january";
+
+/* febuary */
+"febuary"                           = "febuary";
+
+/* march */
+"march"                             = "march";
+
+/* april */
+"april"                             = "april";
+
+/* may */
+"may"                               = "may";
+
+/* june */
+"june"                              = "june";
+
+/* july */
+"july"                              = "july";
+
+/* august */
+"august"                            = "august";
+
+/* september */
+"september"                         = "september";
+
+/* october */
+"october"                           = "october";
+
+/* november */
+"november"                          = "november";
+
+/* december */
+"december"                          = "december";
+
+/* %@ items found */
+"numberOfResults"                   = "%@ items found";
+
+/* Search diary */
+"searchDiaryPlaceHolder"            = "Search diary";
+
+/* No Diary Found */
+"searchNoItemFound"                 = "No Diary Found";
+
+/* Male */
+"male"                              = "Male";
+
+/* Female */
+"female"                            = "Female";
+
+/* When did your love begin? */
+"startLoveSettingDetailTitle"       = "When did your love begin?";
+
+/* Create your passcode */
+"createPasscodeTitle"               = "Create your passcode";
+
+/* Enter your passcode */
+"enterYourPasscodeTitle"            = "Enter your passcode";
+
+/* Confirm your pincode */
+"confirmPincode"                    = "Confirm your pincode";
+
+/* Enter Passcode */
+"enterPasscode"                     = "Enter Passcode";
+
+/* Set Passcode */
+"setPasscode"                       = "Set Passcode";
+
+/* Unlock with %@ */
+"usingSensorTitle"                  = "Unlock with %@";
+
+/* Change passcode */
+"changePasscodeTitle"               = "Change passcode";
+
+/* Turn off passcode */
+"turnOffPasscodeTitle"              = "Turn off passcode";
+
+/* Are you want to delete it, this action cannot be restored */
+"deleteDiaryConfirm"                = "Are you want to delete it, this action cannot be restored";
+
+/* Create new diary */
+"createNewDiary"                    = "Create new diary";
+
+/* There is no image to show */
+"noImageTitle"                      = "There is no image to show";
+
+/* Privacy and Policy */
+"privacyAndPolicyLabel"             = "Privacy and Policy";
+
+/* Lock Immediately */
+"lockImmediatelyTitle"              = "Lock Immediately";
+
+/* Valentine's Day */
+"valentineDayTitle"                 = "Valentine's Day";
+
+/* White day */
+"whiteDayTitle"                     = "White day";
+
+/* 1st anniversary of love */
+"oneYearAnniversaryTitle"           = "1st anniversary of love";
+
+/* 2nd anniversary of love */
+"twoYearAnniversaryTitle"           = "2nd anniversary of love";
+
+/* 3rd anniversary of love */
+"threeYearAnniversaryTitle"         = "3rd anniversary of love";
+
+/* Today */
+"todayLabel"                        = "Today";
+
+/* Save */
+"saveLabel"                         = "Save";
+
+/* None */
+"none"                              = "None";
+
+/* At event time */
+"atEventTime"                       = "At event time";
+
+/* 5 minutes before */
+"fiveMinusBefore"                   = "5 minutes before";
+
+/* 10 minutes before */
+"tenMinusBefore"                    = "10 minutes before";
+
+/* 20 minutes before */
+"tweentyMinusBefore"                = "20 minutes before";
+
+/* 30 minutes before */
+"thirtyMinusBefore"                 = "30 minutes before";
+
+/* 1 hour before */
+"oneHourBefore"                     = "1 hour before";
+
+/* 2 hours before */
+"twoHourBefor"                      = "2 hours before";
+
+/* 3 hours before */
+"threeHourBefore"                   = "3 hours before";
+
+/* 1 day before */
+"oneDayBefore"                      = "1 day before";
+
+/* 2 days before */
+"twoDayBefore"                      = "2 days before";
+
+/* 3 days before */
+"ThreeDayBefore"                    = "3 days before";
+
+/* 1 week before */
+"oneWeekBefore"                     = "1 week before";
+
+/* 2 weaks before */
+"twoWeekBefore"                     = "2 weaks before";
+
+/* 3 weaks before */
+"threeWeekBefore"                   = "3 weaks before";
+
+/* 1 month before */
+"oneMonthBefore"                    = "1 month before";
+
+/* 2 months before */
+"twoMonthBefore"                    = "2 months before";
+
+/* 3 months before */
+"threeMonthBefore"                  = "3 months before";
+
+/* 1 year before */
+"oneYearBefore"                     = "1 year before";
+
+/* 2 years before */
+"twoYearBefore"                     = "2 years before";
+
+/* Reminder */
+"reminderTypeTitle"                 = "Reminder";
+
+/* Discard Change */
+"discartChangeLabel"                = "Discard Change";
+
+/* Open */
+"openEventNotificationTitle"        = "Open";
+
+/* Search Events */
+"searchEventPlaceHolder"            = "Search Events";
+
+/* Outdated Events */
+"outDateEventScreenTitle"           = "Outdated Events";
+
+/* You reach max selection */
+"reachChoseLimitError"              = "You reach max selection";
+
+/* New Event */
+"addNewEventTitle"                  = "New Event";
+
+/* days ago */
+"dayAgo"                            = "days ago";
+
+/* days */
+"days"                              = "days";
+
+/* Title */
+"eventTitlePlaceHolder"             = "Title";
+
+/* Note */
+"eventDetailPlaceHolder"            = "Note";
+
+/* Pin */
+"pinTitle"                          = "Pin";
+
+/* Date */
+"dateTitle"                         = "Date";
+
+/* time */
+"timeTitle"                         = "time";
+
+/* Reminder time */
+"reminderTimeTitle"                 = "Reminder time";
+
+/* There is no event to show */
+"noEventTitle"                      = "There is no event to show";
+
+/* You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app. */
+"requestNotificationMessageTitle"   = "You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app.";
+
+"premiumTitle" = "Features only for Premium user";
+"unlimitBackgroundTitle" = "Unlimited Anniversary Background";
+"unlimitBackgroundDetailTitle" = "Unlimited adding anniversary background image.";
+"removeAdsTitle" = "No Advertising";
+"removeAdsDetailTitle" = "Remove all ads with one click.";
+"moreFuncionTitle" = "More features";
+"moreFuncionDetailTitle" = "More features in the future.";
+"purchaseButtonTitle" = "Unlock premium";
+"restoreButtonTitle" = "Restore Purchase";
+
+/* ICloud backup */
+"ic01iCloudBackupSettingTitleLabel"          = "iCloud Backup & Sync";
+"ic01Title"                                  = "iCloud Backup";
+"ic01ExistsBackupStatus"                     = "Backup Data";
+"ic01NotExistsBackupStatus"                  = "No Backup Data";
+"ic01UpdateDate"                             = "Date Modified";
+"ic01CreateIcloudBackup"                     = "Create Backup";
+"ic01OverrideIcloudBackup"                   = "Overwrite Backup";
+"ic01RestoreFromIcloudBackup"                = "Restore from Backup";
+"ic01RemoveIcloudBackup"                     = "Delete Backup";
+"ic01OverrideDialogTitle"                    = "The data will be taken as the latest backup. Do you want to overwrite? It can not be canceled.";
+"ic01OverrideDialogConfirmButtonTitle"       = "Overwrite";
+"ic01RestoreDialogTitle"                     = "Restore data from backup. The data in this app now disappears and will be overwritten. Are you sure? It can not be canceled.";
+"ic01RestoreDialogConfirmButtonTitle"        = "Restore";
+"ic01RemoveDialogTitle"                      = "Delete backup data. Is it OK?";
+"ic01RemoveDialogConfirmButtonTitle"         = "Remove";
+"ic01DialogCancelTitle"                      = "Cancel";
+"ic01IcloudBackupErrorTitle"                 = "An error occurred";
+"ic01IcloudBackupNotAvailableErrorTitle"     = "The iCloud drive is unavailable. Please sign in iCloud or turn on permission for this app. And turn on iCloud Drive on the settings app.";
+"ic01OldICloudBackupTitle"                   = "Old iCloud Backup";
+"ic01ExistsOldBackupStatus"                  = "Old Backup Data";
+"ic01ServerBusyCKErrorTitle"                 = "Server is busy, please retry later.";
+"ic01RetryCKErrorTitle"                      = "Please retry after %@ seconds.";
+"ic01NotAuthenticatedCKErrorTitle"           = "iCloud is not available or not sign in iCloud. Please check your iCloud.";
+"ic01NetworkFailureCKErrorTitle"             = "Cannot connect to server. Please check your network connection.";
+"ic01QuotaExceededCKErrorTitle"              = "Your iCloud is full. Please check your iCloud disk.";
+"ic01ServiceUnavailableCKErrorTitle"         = "Service unavailable.";
+
+"backupContainTitle" = "The backup contains only diaries and events data";
+"feedbackDetailMessage" = "It would be great if us received feedback from you to improve our quality.";

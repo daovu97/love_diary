@@ -1,0 +1,472 @@
+
+/* Love Diary */
+"appName"                           = "愛情日記";
+
+/* Anniversary */
+"tabBarItemPlanner"                 = "週年紀念日";
+
+/* Diary */
+"tabBarItemCalendar"                = "日記";
+
+/* Diary */
+"diaryScreenTitle"                  = "日記";
+
+/* Gallery */
+"tabBarItemPhotos"                  = "畫廊";
+
+/* Settings */
+"tabBarItemSettings"                = "設定值";
+
+/* Events */
+"tabBarItemEvents"                  = "大事記";
+
+/* OK */
+"ok"                                = "好的";
+
+/* Yes */
+"yes"                               = "是的";
+
+/* Cancel */
+"cancel"                            = "取消";
+
+/* Delete */
+"delete"                            = "刪除";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askSavePhotoPermission"            = "此應用需要使用iOS照片將圖像保存到您的圖片庫的權限。請在“設置”應用中更改權限。";
+
+/* Please allow access to \"All Photos\" on the settings app to insert photos from your library. */
+"askPhotoPermission"                = "請允許訪問設置應用程序上的 \“所有照片”\，以插入圖庫中的照片。";
+
+/* Cannot access the camera. Please grant access to the camera in the Settings app. */
+"askCameraPermission"               = "無法訪問相機。請在“設置”應用中授予對攝像機的訪問權限。";
+
+/* Open Setting app */
+"openSettingApp"                    = "開啟設定應用程式";
+
+/* You have reached the limit of adding photos */
+"reachLimitImageError"              = "您已達到添加照片的限制";
+
+/* Done */
+"done"                              = "完畢";
+
+/* Gallery */
+"galeryScreenTitle"                 = "畫廊";
+
+/* Settings */
+"settingScreenTitle"                = "設定值";
+
+/* Name */
+"name"                              = "姓名";
+
+/* Icloud And Backup */
+"icloudSettingTitle"                = "icloud和備份";
+
+/* Diary Font Interface */
+"diaryFontSettingTitle"             = "日記字體界面";
+
+/* Remove Ads */
+"removeAdsSettingTitle"             = "移除廣告";
+
+/* Restore Purchase */
+"restoreIAPSettingTitle"            = "恢復購買";
+
+/* Themes */
+"themeSettingTitle"                 = "主題";
+
+/* Passcode */
+"passcodeSettingTitle"              = "密碼";
+
+/* Languages */
+"languageSettingTitle"              = "語言能力";
+
+/* Data Export */
+"dataExportSettingTitle"            = "資料匯出";
+
+/* Contact us */
+"helpSettingTitle"                  = "發送反饋";
+
+/* About application */
+"aboutAppSettingTitle"              = "關於申請";
+
+/* Delete All Data */
+"deleteAllSettingTitle"             = "刪除所有數據";
+
+/* Anniversary day */
+"startDateSettingTitle"             = "紀念日";
+
+/* Appearance */
+"apperanceSettingTitle"             = "外貌";
+
+/* Anniversary */
+"anniversaryHeaderSettingTitle"     = "週年紀念日";
+
+/* Background Image */
+"backgroundImageSettingTitle"       = "背景圖";
+
+/* Background */
+"backgroundImageScreenTitle"        = "背景";
+
+/* How to Set Your App Language */
+"languageChangeConfirmTitle"        = "如何設定您的應用程式語言";
+
+/* Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want. */
+"languageChangeConfirmMessage"      = "由於您的手機已更新，因此有不同的步驟來更改您的應用程序語言。\n\n1. 繼續下一個屏幕。\n2.點擊語言以選擇所需的語言。";
+
+/* Continue */
+"continueLabel"                     = "繼續";
+
+/* Do you want to remove Ads? */
+"removeAdsConfirmLabel"             = "您想解鎖高級嗎？";
+
+/* Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer. */
+"sharedAnalyticDetail"              = "此應用需要使用iOS照片將圖像保存到您的圖片庫的權限。請在“設置”應用中更改權限。";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askToSavePhotoPermision"           = "此應用需要許可才能使用iOS照片將圖像保存到您的媒體庫。請在“設置”應用中更改權限。";
+
+/* Love Diary */
+"shareAppName"                      = "愛情日記";
+
+/* Analysis & Improvement */
+"analyticLabel"                     = "分析與改進";
+
+/* Review on AppStore */
+"reviewOnAppstore"                  = "在AppStore上進行評論";
+
+/* Send app to friends */
+"sendToFriends"                     = "將應用發送給朋友";
+
+/* Device name */
+"iosNameOfDeviceMailSignature"      = "設備名稱";
+
+/* Love Diary Feedback /Contact */
+"subjectForFeedbackAndQuestion"     = "Love Diary 反饋/聯繫";
+
+/* Version */
+"versionOfApplicationMailSignature" = "版本";
+
+/* E-mail account is not set up. Please set up in settings app. */
+"setupEmailMessage"                 = "電子郵件帳戶未設置。請在設置應用中進行設置。";
+
+/* Set up */
+"setupEmailConfirm"                 = "設置";
+
+/* Font Size */
+"fontSizeSettingTitle"              = "字體大小";
+
+/* Line Height */
+"lineHeightSettingTitle"            = "線高";
+
+/* Sample text . \nAdjust text size, line spacing and set it as your favorite character. */
+"fontSettingSampleTextTitle"        = "示範文本 。\n調整文本大小，行距並將其設置為您喜歡的字符。";
+
+/* You reach the limit of adding background images. */
+"maxInputBackgroundAsk"             = "您達到了添加背景圖像的極限。";
+
+/* Share as Image */
+"shareAsImageTitle"                 = "分享為圖片";
+
+/* Share as PDF */
+"sharePDFTitle"                     = "共享為PDF";
+
+/* Bright Pink */
+"themeName0"                        = "Bright Pink";
+
+/* Neon Pink */
+"themeName1"                        = "Neon Pink";
+
+/* Hot Pink */
+"themeName2"                        = "Hot Pink";
+
+/* Spring Green */
+"themeName3"                        = "Spring Green";
+
+/* Neon Green */
+"themeName4"                        = "Neon Green";
+
+/* Maya Blue */
+"themeName5"                        = "Maya Blue";
+
+/* Tangerine */
+"themeName6"                        = "Tangerine";
+
+/* Midnight */
+"themeName7"                        = "Midnight";
+
+/* Year */
+"year"                              = "年";
+
+/* Month */
+"month"                             = "月";
+
+/* Day */
+"day"                               = "日";
+
+/* Hour */
+"hour"                              = "小時";
+
+/* january */
+"january"                           = "一月";
+
+/* febuary */
+"febuary"                           = "二月";
+
+/* march */
+"march"                             = "三月";
+
+/* april */
+"april"                             = "四月";
+
+/* may */
+"may"                               = "五月";
+
+/* june */
+"june"                              = "六月";
+
+/* july */
+"july"                              = "七月";
+
+/* august */
+"august"                            = "八月";
+
+/* september */
+"september"                         = "九月";
+
+/* october */
+"october"                           = "十月";
+
+/* november */
+"november"                          = "十一月";
+
+/* december */
+"december"                          = "十二月";
+
+/* %@ items found */
+"numberOfResults"                   = "找到%@項";
+
+/* Search diary */
+"searchDiaryPlaceHolder"            = "搜索日記";
+
+/* No Diary Found */
+"searchNoItemFound"                 = "找不到日記";
+
+/* Male */
+"male"                              = "男性";
+
+/* Female */
+"female"                            = "女性";
+
+/* When did your love begin? */
+"startLoveSettingDetailTitle"       = "你的愛從什麼時候開始的？";
+
+/* Create your passcode */
+"createPasscodeTitle"               = "創建密碼";
+
+/* Enter your passcode */
+"enterYourPasscodeTitle"            = "輸入密碼";
+
+/* Confirm your pincode */
+"confirmPincode"                    = "確認您的密碼";
+
+/* Enter Passcode */
+"enterPasscode"                     = "輸入密碼";
+
+/* Set Passcode */
+"setPasscode"                       = "設置密碼";
+
+/* Unlock with %@ */
+"usingSensorTitle"                  = "用％@解鎖";
+
+/* Change passcode */
+"changePasscodeTitle"               = "更改密碼";
+
+/* Turn off passcode */
+"turnOffPasscodeTitle"              = "關閉密碼";
+
+/* Are you want to delete it, this action cannot be restored */
+"deleteDiaryConfirm"                = "您是否要刪除它，此操作無法恢復";
+
+/* Create new diary */
+"createNewDiary"                    = "創建新日記";
+
+/* There is no image to show */
+"noImageTitle"                      = "沒有圖片可顯示";
+
+/* Privacy and Policy */
+"privacyAndPolicyLabel"             = "私隱政策";
+
+/* Lock Immediately */
+"lockImmediatelyTitle"              = "立即鎖定";
+
+/* Valentine's Day */
+"valentineDayTitle"                 = "情人節";
+
+/* White day */
+"whiteDayTitle"                     = "White day";
+
+/* 1st anniversary of love */
+"oneYearAnniversaryTitle"           = "愛1周年";
+
+/* 2nd anniversary of love */
+"twoYearAnniversaryTitle"           = "愛2週年";
+
+/* 3rd anniversary of love */
+"threeYearAnniversaryTitle"         = "愛3週年";
+
+/* Today */
+"todayLabel"                        = "今天";
+
+/* Save */
+"saveLabel"                         = "保存";
+
+/* None */
+"none"                              = "沒有";
+
+/* At event time */
+"atEventTime"                       = "在活動時間";
+
+/* 5 minutes before */
+"fiveMinusBefore"                   = "5分鐘前";
+
+/* 10 minutes before */
+"tenMinusBefore"                    = "10分鐘前";
+
+/* 20 minutes before */
+"tweentyMinusBefore"                = "20分鐘前e";
+
+/* 30 minutes before */
+"thirtyMinusBefore"                 = "30分鐘前";
+
+/* 1 hour before */
+"oneHourBefore"                     = "1小時前";
+
+/* 2 hours before */
+"twoHourBefor"                      = "2小時前";
+
+/* 3 hours before */
+"threeHourBefore"                   = "3小時前";
+
+/* 1 day before */
+"oneDayBefore"                      = "1天前";
+
+/* 2 days before */
+"twoDayBefore"                      = "2天前e";
+
+/* 3 days before */
+"ThreeDayBefore"                    = "3天前";
+
+/* 1 week before */
+"oneWeekBefore"                     = "1週前";
+
+/* 2 weaks before */
+"twoWeekBefore"                     = "2週前";
+
+/* 3 weaks before */
+"threeWeekBefore"                   = "3週前";
+
+/* 1 month before */
+"oneMonthBefore"                    = "1個月前";
+
+/* 2 months before */
+"twoMonthBefore"                    = "2個月前";
+
+/* 3 months before */
+"threeMonthBefore"                  = "3個月前";
+
+/* 1 year before */
+"oneYearBefore"                     = "1年前";
+
+/* 2 years before */
+"twoYearBefore"                     = "2年前";
+
+/* Reminder */
+"reminderTypeTitle"                 = "提醒";
+
+/* Discard Change */
+"discartChangeLabel"                = "放棄變更";
+
+/* Open */
+"openEventNotificationTitle"        = "打開";
+
+/* Search Events */
+"searchEventPlaceHolder"            = "搜索事件";
+
+/* Outdated Events */
+"outDateEventScreenTitle"           = "過時的活動";
+
+/* You reach max selection */
+"reachChoseLimitError"              = "您達到最大選擇";
+
+/* New Event */
+"addNewEventTitle"                  = "新事件";
+
+/* days ago */
+"dayAgo"                            = "天前";
+
+/* days */
+"days"                              = "天";
+
+/* Title */
+"eventTitlePlaceHolder"             = "標題";
+
+/* Note */
+"eventDetailPlaceHolder"            = "筆記";
+
+/* Pin */
+"pinTitle"                          = "別針";
+
+/* Date */
+"dateTitle"                         = "日期";
+
+/* time */
+"timeTitle"                         = "時間";
+
+/* Reminder time */
+"reminderTimeTitle"                 = "提醒時間";
+
+/* There is no event to show */
+"noEventTitle"                      = "沒有活動可以顯示。";
+
+/* You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app. */
+"requestNotificationMessageTitle"   = "您需要允許通知權限才能使用提醒創建事件. 請在“設置”應用中更改權限。";
+
+"premiumTitle" = "僅適用於高級用戶的功能";
+"unlimitBackgroundTitle" = "無限週年背景";
+"unlimitBackgroundDetailTitle" = "無限添加週年紀念背景圖片。";
+"removeAdsTitle" = "沒有廣告";
+"removeAdsDetailTitle" = "一鍵刪除所有廣告。";
+"moreFuncionTitle" = "更多功能";
+"moreFuncionDetailTitle" = "將來會有更多功能。";
+"purchaseButtonTitle" = "解鎖保費";
+"restoreButtonTitle" = "恢復購買";
+
+/* ICloud backup */
+"ic01iCloudBackupSettingTitleLabel"          = "iCloud數據備份・同步";
+"ic01Title"                                  = "iCloud數據備份";
+"ic01ExistsBackupStatus"                     = "備份數據";
+"ic01NotExistsBackupStatus"                  = "沒有備份數據";
+"ic01UpdateDate"                             = "更新日期";
+"ic01CreateIcloudBackup"                     = "作成數據備份";
+"ic01OverrideIcloudBackup"                   = "覆蓋備份數據";
+"ic01RestoreFromIcloudBackup"                = "復原備份數據";
+"ic01RemoveIcloudBackup"                     = "刪除備份數據";
+"ic01OverrideDialogTitle"                    = "現在的app數據，是最新的備份數據。是否覆蓋？覆蓋後不可復原。";
+"ic01OverrideDialogConfirmButtonTitle"       = "覆蓋數據";
+"ic01RestoreDialogTitle"                     = "從備份數據中進行數據的復原。現在此app原有的數據將被覆蓋可以嗎？不能復原。";
+"ic01RestoreDialogConfirmButtonTitle"        = "復原";
+"ic01RemoveDialogTitle"                      = "刪除備份數據。可以嗎？不能復原。";
+"ic01RemoveDialogConfirmButtonTitle"         = "刪除";
+"ic01DialogCancelTitle"                      = "取消";
+"ic01IcloudBackupErrorTitle"                 = "An error occurred";
+"ic01IcloudBackupNotAvailableErrorTitle"     = "iCloud的功能不能訪問。設置app中點擊Apple ID、「iCloud Drive」設定為ON、畫面下方的app訪問許可權設定為ON。";
+"ic01OldICloudBackupTitle"                   = "舊的iCloud備份";
+"ic01ExistsOldBackupStatus"                  = "舊備份數據";
+"ic01ServerBusyCKErrorTitle"                 = "iCloud伺服器暫時無法使用。 請稍後再嘗試。";
+"ic01RetryCKErrorTitle"                      = "請於%@秒後再嘗試。";
+"ic01NotAuthenticatedCKErrorTitle"           = "iCloud可能無法使用，或是未登入iCloud。 請確認iCloud的設定。";
+"ic01NetworkFailureCKErrorTitle"             = "未連接伺服器。 請確認網路連線情形。";
+"ic01QuotaExceededCKErrorTitle"              = "iCloud儲存空間已滿。 請確認iCloud雲碟";
+"ic01ServiceUnavailableCKErrorTitle"         = "現在無法使用服務。";
+"backupContainTitle" = "備份僅包含日記和事件數據";
+"feedbackDetailMessage" = "如果我們收到您的反饋以提高我們的質量，那就太好了。";

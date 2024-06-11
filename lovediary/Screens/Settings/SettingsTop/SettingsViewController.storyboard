@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="Lhc-Xc-aOJ">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" id="HXs-Dn-Cqb" customClass="SettingsViewController" customModule="lovediary" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pHo-Bu-Ucl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="vdb-Vj-WYt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingWithSwitchTableViewCell" id="hfi-GX-koC" customClass="SettingWithSwitchTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="55.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hfi-GX-koC" id="S4E-ti-uRB">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="mi0-qS-nPW">
+                                                    <rect key="frame" x="20" y="10" width="270" height="24"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hGg-5S-KXp" customClass="ThemeImageIcon" customModule="lovediary">
+                                                            <rect key="frame" x="0.0" y="0.5" width="24" height="22.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="24" id="A1I-Pd-2zw"/>
+                                                                <constraint firstAttribute="width" constant="24" id="Of7-mg-HDn"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パスコードロック" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAQ-fY-fow" customClass="SettingTableViewLabel" customModule="lovediary" customModuleProvider="target">
+                                                            <rect key="frame" x="40" y="4.5" width="230" height="15"/>
+                                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="751" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4H-Hy-cde">
+                                                    <rect key="frame" x="306" y="6.5" width="51" height="31"/>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="V4H-Hy-cde" firstAttribute="leading" secondItem="mi0-qS-nPW" secondAttribute="trailing" constant="16" id="FWR-xe-5ky"/>
+                                                <constraint firstItem="mi0-qS-nPW" firstAttribute="centerY" secondItem="S4E-ti-uRB" secondAttribute="centerY" id="ZBE-8b-s7T"/>
+                                                <constraint firstItem="mi0-qS-nPW" firstAttribute="leading" secondItem="S4E-ti-uRB" secondAttribute="leading" constant="20" id="bKy-C6-MRn"/>
+                                                <constraint firstAttribute="trailing" secondItem="V4H-Hy-cde" secondAttribute="trailing" constant="19" id="eXa-Qk-TBb"/>
+                                                <constraint firstItem="V4H-Hy-cde" firstAttribute="centerY" secondItem="S4E-ti-uRB" secondAttribute="centerY" id="jBi-as-3sD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="hGg-5S-KXp" id="NdD-lF-Y7a"/>
+                                            <outlet property="switchButton" destination="V4H-Hy-cde" id="pBG-CR-WhA"/>
+                                            <outlet property="titleLabel" destination="SAQ-fY-fow" id="CMh-Bp-80y"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingNormalTableViewCell" id="J4S-7s-7Ch" customClass="SettingNormalTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="99" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J4S-7s-7Ch" id="ka4-an-J0A">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="xX9-n7-rwy">
+                                                    <rect key="frame" x="20" y="10" width="307" height="24"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jRL-Jf-sue" customClass="ThemeImageIcon" customModule="lovediary">
+                                                            <rect key="frame" x="0.0" y="0.5" width="24" height="22.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="24" id="GrK-Fl-Gy2"/>
+                                                                <constraint firstAttribute="width" constant="24" id="r9g-t9-8lS"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パスコードロック" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpV-Zq-36z" customClass="SettingTableViewLabel" customModule="lovediary" customModuleProvider="target">
+                                                            <rect key="frame" x="40" y="4.5" width="267" height="15"/>
+                                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="h5X-a6-VVD" customClass="ThemeImageIcon" customModule="lovediary">
+                                                    <rect key="frame" x="343" y="15" width="12" height="14.5"/>
+                                                    <color key="tintColor" red="0.35294117650000001" green="0.35294117650000001" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="UQU-JS-pU0"/>
+                                                        <constraint firstAttribute="width" constant="12" id="zBO-5S-IiM"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="h5X-a6-VVD" firstAttribute="centerY" secondItem="ka4-an-J0A" secondAttribute="centerY" id="Kwf-lO-chL"/>
+                                                <constraint firstAttribute="trailing" secondItem="h5X-a6-VVD" secondAttribute="trailing" constant="19" id="SmO-rw-cb2"/>
+                                                <constraint firstItem="h5X-a6-VVD" firstAttribute="leading" secondItem="xX9-n7-rwy" secondAttribute="trailing" constant="16" id="UKK-ua-Nx5"/>
+                                                <constraint firstItem="xX9-n7-rwy" firstAttribute="leading" secondItem="ka4-an-J0A" secondAttribute="leading" constant="20" id="u6t-xb-RXc"/>
+                                                <constraint firstItem="xX9-n7-rwy" firstAttribute="centerY" secondItem="ka4-an-J0A" secondAttribute="centerY" id="wgT-4N-qtp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="jRL-Jf-sue" id="Y3L-LY-YaX"/>
+                                            <outlet property="titleLabel" destination="PpV-Zq-36z" id="3jU-mC-GPn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingDeleteTableViewCell" id="8uH-8U-68r" customClass="SettingDeleteTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="142.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8uH-8U-68r" id="VUv-S5-zcu">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zDz-gg-pzd">
+                                                    <rect key="frame" x="20" y="9.5" width="307" height="25"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="F2J-bH-FXz">
+                                                            <rect key="frame" x="0.0" y="0.5" width="25" height="23.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="25" id="bT8-fX-64c"/>
+                                                                <constraint firstAttribute="width" constant="25" id="dOk-41-lBr"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                    <real key="value" value="5"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                                                    <color key="value" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パスコードロック" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUV-KU-u6v" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                                            <rect key="frame" x="41" y="5" width="266" height="15"/>
+                                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sSL-8E-o9v" customClass="ThemeImageIcon" customModule="lovediary">
+                                                    <rect key="frame" x="343" y="15" width="12" height="14.5"/>
+                                                    <color key="tintColor" red="0.35294117650000001" green="0.35294117650000001" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="12" id="B5L-Oe-3w9"/>
+                                                        <constraint firstAttribute="height" constant="18" id="NIn-Qc-is0"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="sSL-8E-o9v" secondAttribute="trailing" constant="19" id="6ez-np-pPu"/>
+                                                <constraint firstItem="zDz-gg-pzd" firstAttribute="centerY" secondItem="VUv-S5-zcu" secondAttribute="centerY" id="PFN-CQ-ay0"/>
+                                                <constraint firstItem="sSL-8E-o9v" firstAttribute="centerY" secondItem="VUv-S5-zcu" secondAttribute="centerY" id="XMt-ny-Ile"/>
+                                                <constraint firstItem="sSL-8E-o9v" firstAttribute="leading" secondItem="zDz-gg-pzd" secondAttribute="trailing" constant="16" id="pDL-cy-MM7"/>
+                                                <constraint firstItem="zDz-gg-pzd" firstAttribute="leading" secondItem="VUv-S5-zcu" secondAttribute="leading" constant="20" id="wxv-6Y-4Gg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="F2J-bH-FXz" id="3Ww-EW-Igt"/>
+                                            <outlet property="titleLabel" destination="MUV-KU-u6v" id="JOy-Rn-iUG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="HXs-Dn-Cqb" id="nQ1-Dd-UtV"/>
+                                    <outlet property="delegate" destination="HXs-Dn-Cqb" id="ibd-nm-Fx3"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JoC-rC-31E">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Xav-E2-ZsH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pig-aT-pgo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vdb-Vj-WYt" firstAttribute="trailing" secondItem="pig-aT-pgo" secondAttribute="trailing" id="0P3-cE-WaR"/>
+                            <constraint firstItem="JoC-rC-31E" firstAttribute="trailing" secondItem="pig-aT-pgo" secondAttribute="trailing" id="5um-rl-hrV"/>
+                            <constraint firstItem="vdb-Vj-WYt" firstAttribute="leading" secondItem="pig-aT-pgo" secondAttribute="leading" id="8jE-TJ-f82"/>
+                            <constraint firstItem="JoC-rC-31E" firstAttribute="bottom" secondItem="pig-aT-pgo" secondAttribute="bottom" id="Eck-9D-gYP"/>
+                            <constraint firstItem="JoC-rC-31E" firstAttribute="leading" secondItem="pig-aT-pgo" secondAttribute="leading" id="N1b-71-Bdy"/>
+                            <constraint firstItem="vdb-Vj-WYt" firstAttribute="top" secondItem="pHo-Bu-Ucl" secondAttribute="top" id="S8V-gS-XUE"/>
+                            <constraint firstAttribute="bottom" secondItem="vdb-Vj-WYt" secondAttribute="bottom" id="Z3u-5D-s4d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="adsContainerView" destination="JoC-rC-31E" id="70P-iL-NlF"/>
+                        <outlet property="adsHeightConstrain" destination="Xav-E2-ZsH" id="GqE-kx-Tlc"/>
+                        <outlet property="tableView" destination="vdb-Vj-WYt" id="Ftn-yu-siJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9k5-GA-B7o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-946.37681159420299" y="47.544642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="lock" catalog="system" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

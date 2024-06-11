@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start Date Setting View Controller-->
+        <scene sceneID="ESq-a4-3Bt">
+            <objects>
+                <viewController storyboardIdentifier="StartDateSettingViewController" id="C5i-Y8-APz" customClass="StartDateSettingViewController" customModule="lovediary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1xW-DF-sSd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="y48-Ja-nDQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="wrc-4g-hsu">
+                                <rect key="frame" x="70.5" y="410.5" width="273" height="75"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="male_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="eKL-EH-Plv">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="eKL-EH-Plv" secondAttribute="height" multiplier="1:1" id="YFA-FF-T4L"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="98.5" placeholderIntrinsicHeight="infinite" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Eqr-YF-s7x">
+                                        <rect key="frame" x="87" y="0.0" width="98.5" height="75"/>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="Lbp-Zh-p6d">
+                                        <rect key="frame" x="197.5" y="0.0" width="75.5" height="75"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Eqr-YF-s7x" firstAttribute="height" secondItem="wrc-4g-hsu" secondAttribute="height" id="AtC-SJ-2VN"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When yours love begin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzU-uE-ybG" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                <rect key="frame" x="20" y="377.5" width="374" height="19"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="19"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.compact.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lZc-9y-cpQ">
+                                <rect key="frame" x="187" y="60.5" width="40" height="26.5"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Rxe-aG-mL8"/>
+                                    <constraint firstAttribute="width" constant="40" id="rrK-e6-ORc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="52C-QA-Vij"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eKL-EH-Plv" firstAttribute="width" secondItem="1xW-DF-sSd" secondAttribute="width" multiplier="0.18" id="0hZ-z5-ruS"/>
+                            <constraint firstItem="wrc-4g-hsu" firstAttribute="top" secondItem="hzU-uE-ybG" secondAttribute="bottom" constant="14" id="5bV-1F-RLR"/>
+                            <constraint firstItem="wrc-4g-hsu" firstAttribute="centerY" secondItem="1xW-DF-sSd" secondAttribute="centerY" id="8iZ-3K-6ys"/>
+                            <constraint firstItem="y48-Ja-nDQ" firstAttribute="trailing" secondItem="52C-QA-Vij" secondAttribute="trailing" id="FqL-md-r6g"/>
+                            <constraint firstItem="wrc-4g-hsu" firstAttribute="centerX" secondItem="1xW-DF-sSd" secondAttribute="centerX" id="Kix-iy-6bP"/>
+                            <constraint firstItem="hzU-uE-ybG" firstAttribute="centerX" secondItem="1xW-DF-sSd" secondAttribute="centerX" id="LCL-BS-cPB"/>
+                            <constraint firstItem="52C-QA-Vij" firstAttribute="trailing" secondItem="hzU-uE-ybG" secondAttribute="trailing" constant="20" id="LUQ-LQ-NSu"/>
+                            <constraint firstItem="y48-Ja-nDQ" firstAttribute="leading" secondItem="52C-QA-Vij" secondAttribute="leading" id="R8Q-fF-uGi"/>
+                            <constraint firstItem="lZc-9y-cpQ" firstAttribute="centerX" secondItem="1xW-DF-sSd" secondAttribute="centerX" id="bcp-y4-8h3"/>
+                            <constraint firstAttribute="bottom" secondItem="y48-Ja-nDQ" secondAttribute="bottom" id="eL1-X3-YHb"/>
+                            <constraint firstItem="Lbp-Zh-p6d" firstAttribute="width" secondItem="1xW-DF-sSd" secondAttribute="width" multiplier="0.182367" id="fFr-Sn-dam"/>
+                            <constraint firstItem="lZc-9y-cpQ" firstAttribute="top" secondItem="52C-QA-Vij" secondAttribute="top" constant="10" id="jdf-vn-nIu"/>
+                            <constraint firstItem="y48-Ja-nDQ" firstAttribute="top" secondItem="1xW-DF-sSd" secondAttribute="top" id="l3m-Wa-NZk"/>
+                            <constraint firstItem="hzU-uE-ybG" firstAttribute="leading" secondItem="52C-QA-Vij" secondAttribute="leading" constant="20" id="qoi-y4-uXh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateTimePikerContainer" destination="Eqr-YF-s7x" id="UZf-AS-wGk"/>
+                        <outlet property="mInforImageView" destination="eKL-EH-Plv" id="aAd-b5-5xA"/>
+                        <outlet property="pInforImageView" destination="Lbp-Zh-p6d" id="Zlx-jQ-lfc"/>
+                        <outlet property="startLoveLabel" destination="hzU-uE-ybG" id="czi-Gz-MPa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCz-Sn-MC7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198.55072463768118" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background1" width="1242" height="2688"/>
+        <image name="chevron.compact.down" catalog="system" width="128" height="43"/>
+        <image name="female_avatar" width="130.5" height="130.5"/>
+        <image name="male_avatar" width="130.5" height="130.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

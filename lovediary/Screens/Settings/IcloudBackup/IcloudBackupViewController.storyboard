@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Icloud Backup View Controller-->
+        <scene sceneID="hYm-JL-k3x">
+            <objects>
+                <tableViewController storyboardIdentifier="IcloudBackupViewController" id="53H-di-RHJ" customClass="IcloudBackupViewController" customModule="lovediary" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="ed3-EW-0GH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="wpL-FT-1if">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="220"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icloud" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="H0Y-NI-c1t">
+                                    <rect key="frame" x="134.5" y="17" width="145" height="105"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="H0Y-NI-c1t" secondAttribute="height" multiplier="4:3" id="jHp-cx-xev"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/10/2021 20:11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMS-ig-Mfs" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                    <rect key="frame" x="146" y="160.5" width="122.5" height="13"/>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="13"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120.56MB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1W-JS-obg" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                    <rect key="frame" x="151" y="132.5" width="112" height="20"/>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="C1W-JS-obg" firstAttribute="centerX" secondItem="wpL-FT-1if" secondAttribute="centerX" id="JFC-9b-Pn8"/>
+                                <constraint firstItem="H0Y-NI-c1t" firstAttribute="width" secondItem="wpL-FT-1if" secondAttribute="width" multiplier="0.35" id="Ncs-Sl-5fx"/>
+                                <constraint firstItem="C1W-JS-obg" firstAttribute="top" secondItem="H0Y-NI-c1t" secondAttribute="bottom" constant="8" id="bS2-0f-ZMP"/>
+                                <constraint firstItem="cMS-ig-Mfs" firstAttribute="centerX" secondItem="wpL-FT-1if" secondAttribute="centerX" id="fFr-F7-3pU"/>
+                                <constraint firstItem="cMS-ig-Mfs" firstAttribute="top" secondItem="C1W-JS-obg" secondAttribute="bottom" constant="8" id="kgl-QX-tJM"/>
+                                <constraint firstItem="H0Y-NI-c1t" firstAttribute="top" secondItem="wpL-FT-1if" secondAttribute="top" constant="16" id="tfU-p4-8kR"/>
+                                <constraint firstItem="H0Y-NI-c1t" firstAttribute="centerX" secondItem="wpL-FT-1if" secondAttribute="centerX" id="vUi-fk-kwZ"/>
+                            </constraints>
+                        </view>
+                        <sections>
+                            <tableViewSection id="iWi-nm-ZAx">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingNormalTableViewCell" id="ID3-Nd-jAe" customClass="SettingNormalTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="238" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ID3-Nd-jAe" id="cNO-jU-0hC">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="AJG-c3-h82">
+                                                    <rect key="frame" x="20" y="10" width="185" height="24"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.up.doc.on.clipboard" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4vf-1l-xFT" customClass="ThemeImageIcon" customModule="lovediary">
+                                                            <rect key="frame" x="0.0" y="-1.5" width="24" height="27"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="24" id="9pg-Qn-ejT"/>
+                                                                <constraint firstAttribute="width" constant="24" id="J6S-xc-yXi"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overwrite Backup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xa-yx-wLt" customClass="SettingTableViewLabel" customModule="lovediary" customModuleProvider="target">
+                                                            <rect key="frame" x="40" y="4.5" width="145" height="15"/>
+                                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AJG-c3-h82" firstAttribute="leading" secondItem="cNO-jU-0hC" secondAttribute="leading" constant="20" id="0ir-8f-eJv"/>
+                                                <constraint firstItem="AJG-c3-h82" firstAttribute="centerY" secondItem="cNO-jU-0hC" secondAttribute="centerY" id="lCC-ax-bgr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="4vf-1l-xFT" id="cwx-rG-knd"/>
+                                            <outlet property="titleLabel" destination="3Xa-yx-wLt" id="8jQ-w6-JYF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingNormalTableViewCell" id="rOA-92-2OP" customClass="SettingNormalTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="281.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rOA-92-2OP" id="hHm-Hc-64m">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Uyk-QD-4D0">
+                                                    <rect key="frame" x="20" y="10" width="214" height="24"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="abV-s7-ccF" customClass="ThemeImageIcon" customModule="lovediary">
+                                                            <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="24" id="frE-9p-gHL"/>
+                                                                <constraint firstAttribute="height" constant="24" id="itt-pA-roC"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restore from Backup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-sB-xwm" customClass="SettingTableViewLabel" customModule="lovediary" customModuleProvider="target">
+                                                            <rect key="frame" x="40" y="4.5" width="174" height="15"/>
+                                                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Uyk-QD-4D0" firstAttribute="leading" secondItem="hHm-Hc-64m" secondAttribute="leading" constant="20" id="9w5-yO-0Dp"/>
+                                                <constraint firstItem="Uyk-QD-4D0" firstAttribute="centerY" secondItem="hHm-Hc-64m" secondAttribute="centerY" id="UjP-vi-h45"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="abV-s7-ccF" id="R9S-zb-0gH"/>
+                                            <outlet property="titleLabel" destination="RDB-sB-xwm" id="dyJ-pO-8T0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="CPz-bj-be3">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingNormalTableViewCell" id="oYw-HG-9Eb" customClass="SettingNormalTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="361" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oYw-HG-9Eb" id="31j-rS-Bnj">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Backup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hA-LA-pzO" customClass="SettingTableViewLabel" customModule="lovediary" customModuleProvider="target">
+                                                    <rect key="frame" x="126.5" y="14.5" width="121" height="15"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7hA-LA-pzO" firstAttribute="centerY" secondItem="31j-rS-Bnj" secondAttribute="centerY" id="4Ah-5g-Ig2"/>
+                                                <constraint firstItem="7hA-LA-pzO" firstAttribute="centerX" secondItem="31j-rS-Bnj" secondAttribute="centerX" id="QpX-ar-zOZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="7hA-LA-pzO" id="PeV-or-kiH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingNormalTableViewCell" id="ueY-z2-FFv" customClass="SettingNormalTableViewCell" customModule="lovediary">
+                                        <rect key="frame" x="20" y="404.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ueY-z2-FFv" id="cp5-gJ-wKE">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete Backup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ea-8O-Ue0">
+                                                    <rect key="frame" x="128" y="14.5" width="118" height="15"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3Ea-8O-Ue0" firstAttribute="centerX" secondItem="cp5-gJ-wKE" secondAttribute="centerX" id="3Hj-Wa-EgP"/>
+                                                <constraint firstItem="3Ea-8O-Ue0" firstAttribute="centerY" secondItem="cp5-gJ-wKE" secondAttribute="centerY" id="g5q-53-HoD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="3Ea-8O-Ue0" id="r1Y-Ia-OEj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="53H-di-RHJ" id="YOq-zT-lm2"/>
+                            <outlet property="delegate" destination="53H-di-RHJ" id="A3R-N4-1JK"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="backupSizeLabel" destination="C1W-JS-obg" id="hPG-HH-Hep"/>
+                        <outlet property="createBackupCell" destination="oYw-HG-9Eb" id="3NL-gf-FD7"/>
+                        <outlet property="createBackupLabel" destination="7hA-LA-pzO" id="2QY-5Q-VVO"/>
+                        <outlet property="deleteBackupCell" destination="ueY-z2-FFv" id="2qd-lH-dvj"/>
+                        <outlet property="deletebackupLabel" destination="3Ea-8O-Ue0" id="t6n-af-F2G"/>
+                        <outlet property="icloudIcon" destination="H0Y-NI-c1t" id="vS7-TX-ZEk"/>
+                        <outlet property="moddifiedTimeLabel" destination="cMS-ig-Mfs" id="BEC-a0-eC8"/>
+                        <outlet property="overwriteBakupLabel" destination="3Xa-yx-wLt" id="4CL-MR-Y6R"/>
+                        <outlet property="restoreBackupLabel" destination="RDB-sB-xwm" id="doO-gz-7rW"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPy-iB-Dbd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68.115942028985515" y="122.54464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.up.doc.on.clipboard" catalog="system" width="116" height="128"/>
+        <image name="icloud" catalog="system" width="128" height="88"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

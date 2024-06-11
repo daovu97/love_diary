@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Out Date Event View Controller-->
+        <scene sceneID="NLW-Du-Faf">
+            <objects>
+                <viewController storyboardIdentifier="OutDateEventViewController" id="RRo-lY-ybf" customClass="OutDateEventViewController" customModule="lovediary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Eh-3C-uEz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="83t-nq-0Bd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAh-6L-MjW" customClass="ThemeCommonColorLabel" customModule="lovediary" customModuleProvider="target">
+                                        <rect key="frame" x="120" y="439.5" width="174.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="CAh-6L-MjW" firstAttribute="centerY" secondItem="83t-nq-0Bd" secondAttribute="centerY" id="4PK-hG-Olr"/>
+                                    <constraint firstItem="CAh-6L-MjW" firstAttribute="centerX" secondItem="83t-nq-0Bd" secondAttribute="centerX" id="TI2-9q-90z"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="x6W-1e-jum">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OutDateEventViewCell" id="xbv-ma-IOr" customClass="OutDateEventViewCell" customModule="lovediary" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="55.5" width="374" height="124.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xbv-ma-IOr" id="qNj-HA-3PE">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="124.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GxN-TY-pBH">
+                                                    <rect key="frame" x="30" y="27" width="324" height="70.5"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Iku-QT-BR2">
+                                                            <rect key="frame" x="0.0" y="0.5" width="159.5" height="70"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Month insdvsdvsvsvs " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJt-BU-67B" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="32"/>
+                                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="16"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="XUk-NA-cQe">
+                                                                    <rect key="frame" x="0.0" y="44" width="71.5" height="26"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May 4.2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeJ-sV-0Ao" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="71.5" height="12"/>
+                                                                            <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                                                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pf-j9-xMI" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="14" width="71.5" height="12"/>
+                                                                            <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                                                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                </stackView>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="bottom" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="fyH-d4-N0E">
+                                                            <rect key="frame" x="179.5" y="16.5" width="144.5" height="38"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="36cvdvsd5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o18-BV-dse" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="144.5" height="24"/>
+                                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="24"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="days\nago" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQe-by-CNs" customClass="IncreaseHeightLabel" customModule="lovediary" customModuleProvider="target">
+                                                                    <rect key="frame" x="81.5" y="26" width="63" height="12"/>
+                                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qz9-Mi-ye0">
+                                                    <rect key="frame" x="2" y="31" width="4" height="62.5"/>
+                                                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="4" id="9U1-Qq-oJh"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="2"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Qz9-Mi-ye0" firstAttribute="centerY" secondItem="qNj-HA-3PE" secondAttribute="centerY" id="3xi-pN-Bee"/>
+                                                <constraint firstItem="GxN-TY-pBH" firstAttribute="leading" secondItem="qNj-HA-3PE" secondAttribute="leading" constant="30" id="Lb2-bs-sCZ"/>
+                                                <constraint firstItem="Qz9-Mi-ye0" firstAttribute="height" secondItem="qNj-HA-3PE" secondAttribute="height" multiplier="0.5" id="NH7-Mw-DUb"/>
+                                                <constraint firstAttribute="trailing" secondItem="GxN-TY-pBH" secondAttribute="trailing" constant="20" id="Oxu-Bn-X5x"/>
+                                                <constraint firstItem="GxN-TY-pBH" firstAttribute="top" secondItem="qNj-HA-3PE" secondAttribute="topMargin" constant="16" id="Sg7-Y7-kpu"/>
+                                                <constraint firstItem="GxN-TY-pBH" firstAttribute="centerY" secondItem="qNj-HA-3PE" secondAttribute="centerY" id="Z4G-iH-4tz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GxN-TY-pBH" secondAttribute="bottom" constant="16" id="aYr-MU-28Q"/>
+                                                <constraint firstItem="Qz9-Mi-ye0" firstAttribute="leading" secondItem="qNj-HA-3PE" secondAttribute="leading" constant="2" id="e4r-5Z-4RI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="daylabel" destination="dQe-by-CNs" id="03F-EM-JAd"/>
+                                            <outlet property="eventDateLabel" destination="MeJ-sV-0Ao" id="glY-Bz-Mb7"/>
+                                            <outlet property="evetTitleLabel" destination="yJt-BU-67B" id="YOP-eW-uT7"/>
+                                            <outlet property="numberDayCountLabel" destination="o18-BV-dse" id="3ei-68-bXi"/>
+                                            <outlet property="tagView" destination="Qz9-Mi-ye0" id="c6O-Vz-R1M"/>
+                                            <outlet property="timelabel" destination="6pf-j9-xMI" id="O85-IQ-njI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="delegate" destination="RRo-lY-ybf" id="h6Q-ol-KSM"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dnw-a3-Mc8">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1BR-L8-1a2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DsJ-aF-4m2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="83t-nq-0Bd" firstAttribute="trailing" secondItem="DsJ-aF-4m2" secondAttribute="trailing" id="1VU-eb-4r0"/>
+                            <constraint firstAttribute="bottom" secondItem="83t-nq-0Bd" secondAttribute="bottom" id="EaF-BJ-vKu"/>
+                            <constraint firstItem="dnw-a3-Mc8" firstAttribute="trailing" secondItem="DsJ-aF-4m2" secondAttribute="trailing" id="HxQ-Cl-q1E"/>
+                            <constraint firstItem="83t-nq-0Bd" firstAttribute="top" secondItem="6Eh-3C-uEz" secondAttribute="top" id="JAA-dX-UEj"/>
+                            <constraint firstItem="x6W-1e-jum" firstAttribute="top" secondItem="6Eh-3C-uEz" secondAttribute="top" id="Jil-6Q-26G"/>
+                            <constraint firstItem="x6W-1e-jum" firstAttribute="leading" secondItem="DsJ-aF-4m2" secondAttribute="leading" id="NOw-sW-9dc"/>
+                            <constraint firstItem="x6W-1e-jum" firstAttribute="trailing" secondItem="DsJ-aF-4m2" secondAttribute="trailing" id="WkC-S0-9Xm"/>
+                            <constraint firstItem="dnw-a3-Mc8" firstAttribute="leading" secondItem="DsJ-aF-4m2" secondAttribute="leading" id="ahC-Sk-Ads"/>
+                            <constraint firstItem="DsJ-aF-4m2" firstAttribute="bottom" secondItem="x6W-1e-jum" secondAttribute="bottom" id="ajq-0Y-Zaf"/>
+                            <constraint firstItem="dnw-a3-Mc8" firstAttribute="bottom" secondItem="DsJ-aF-4m2" secondAttribute="bottom" id="au2-UY-HcG"/>
+                            <constraint firstItem="83t-nq-0Bd" firstAttribute="leading" secondItem="DsJ-aF-4m2" secondAttribute="leading" id="olj-5w-OAw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="adsContainerView" destination="dnw-a3-Mc8" id="ak0-aR-jtr"/>
+                        <outlet property="adsHeightConstraint" destination="1BR-L8-1a2" id="2jD-Eq-urP"/>
+                        <outlet property="noDataTitle" destination="CAh-6L-MjW" id="fVp-Sm-ith"/>
+                        <outlet property="noDataView" destination="83t-nq-0Bd" id="DT2-6k-o56"/>
+                        <outlet property="tableView" destination="x6W-1e-jum" id="3zN-OO-Dew"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3M-mV-bng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2463768115942031" y="59.598214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

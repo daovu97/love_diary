@@ -1,0 +1,472 @@
+
+/* Love Diary */
+"appName"                           = "사랑 일기";
+
+/* Anniversary */
+"tabBarItemPlanner"                 = "기념일";
+
+/* Diary */
+"tabBarItemCalendar"                = "일기";
+
+/* Diary */
+"diaryScreenTitle"                  = "일기";
+
+/* Gallery */
+"tabBarItemPhotos"                  = "갤러리";
+
+/* Settings */
+"tabBarItemSettings"                = "설정";
+
+/* Events */
+"tabBarItemEvents"                  = "이벤트";
+
+/* OK */
+"ok"                                = "확인";
+
+/* Yes */
+"yes"                               = "예";
+
+/* Cancel */
+"cancel"                            = "취소";
+
+/* Delete */
+"delete"                            = "지우다";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askSavePhotoPermission"            = "이 앱은 iOS 사진을 사용하여 이미지를 라이브러리에 저장할 수있는 권한이 필요합니다. 설정 앱에서 권한을 변경하세요.";
+
+/* Please allow access to \"All Photos\" on the settings app to insert photos from your library. */
+"askPhotoPermission"                = "라이브러리의 사진을 삽입하려면 설정 앱의 \"모든 사진 \"에 대한 액세스를 허용하세요.";
+
+/* Cannot access the camera. Please grant access to the camera in the Settings app. */
+"askCameraPermission"               = "카메라에 액세스 할 수 없습니다. 설정 앱에서 카메라에 대한 액세스 권한을 부여하세요.";
+
+/* Open Setting app */
+"openSettingApp"                    = "설정 앱 열기";
+
+/* You have reached the limit of adding photos */
+"reachLimitImageError"              = "사진 추가 한도에 도달했습니다.";
+
+/* Done */
+"done"                              = "끝난";
+
+/* Gallery */
+"galeryScreenTitle"                 = "갤러리";
+
+/* Settings */
+"settingScreenTitle"                = "설정";
+
+/* Name */
+"name"                              = "이름";
+
+/* Icloud And Backup */
+"icloudSettingTitle"                = "Icloud 및 백업";
+
+/* Diary Font Interface */
+"diaryFontSettingTitle"             = "일기 글꼴 인터페이스";
+
+/* Remove Ads */
+"removeAdsSettingTitle"             = "광고를 제거하다";
+
+/* Restore Purchase */
+"restoreIAPSettingTitle"            = "구매 복원";
+
+/* Themes */
+"themeSettingTitle"                 = "테마";
+
+/* Passcode */
+"passcodeSettingTitle"              = "비밀번호";
+
+/* Languages */
+"languageSettingTitle"              = "언어";
+
+/* Data Export */
+"dataExportSettingTitle"            = "데이터 내보내기";
+
+/* Contact us */
+"helpSettingTitle"                  = "피드백 보내기";
+
+/* About application */
+"aboutAppSettingTitle"              = "신청에 대해";
+
+/* Delete All Data */
+"deleteAllSettingTitle"             = "모든 데이터 삭제";
+
+/* Anniversary day */
+"startDateSettingTitle"             = "기념일";
+
+/* Appearance */
+"apperanceSettingTitle"             = "외관";
+
+/* Anniversary */
+"anniversaryHeaderSettingTitle"     = "기념일";
+
+/* Background Image */
+"backgroundImageSettingTitle"       = "배경 이미지";
+
+/* Background */
+"backgroundImageScreenTitle"        = "배경";
+
+/* How to Set Your App Language */
+"languageChangeConfirmTitle"        = "앱 언어를 설정하는 방법";
+
+/* Due to updates to your phone, there are different steps to change your app language.\n\n1. Continue to the next screen.\n2.Tap Language to select the language you want. */
+"languageChangeConfirmMessage"      = "휴대폰 업데이트로 인해 앱 언어를 변경하는 여러 단계가 있습니다.\n\n1. 다음 화면으로 이동하십시오.\n2.언어를 탭하여 원하는 언어를 선택하십시오.";
+
+/* Continue */
+"continueLabel"                     = "계속하다";
+
+/* Do you want to remove Ads? */
+"removeAdsConfirmLabel"             = "프리미엄을 잠금 해제 하시겠습니까?";
+
+/* Help us improve the quality and performance of this app by sending usage data (anonymous data) to the developer. */
+"sharedAnalyticDetail"              = "사용 데이터 (익명 데이터)를 개발자에게 전송하여이 앱의 품질과 성능을 개선 할 수 있도록 도와주세요.";
+
+/* This app requires the permisson to use iOS Photos to save images to your library. Please change the permission in the Settings app. */
+"askToSavePhotoPermision"           = "이 앱은 iOS 사진을 사용하여 이미지를 라이브러리에 저장할 수있는 권한이 필요합니다. 설정 앱에서 권한을 변경하세요.";
+
+/* Love Diary */
+"shareAppName"                      = "사랑 일기";
+
+/* Analysis & Improvement */
+"analyticLabel"                     = "분석 및 개선";
+
+/* Review on AppStore */
+"reviewOnAppstore"                  = "AppStore에서 검토";
+
+/* Send app to friends */
+"sendToFriends"                     = "친구에게 앱 보내기";
+
+/* Device name */
+"iosNameOfDeviceMailSignature"      = "장치 이름";
+
+/* Love Diary Feedback /Contact */
+"subjectForFeedbackAndQuestion"     = "러브 다이어리 피드백 / 연락처";
+
+/* Version */
+"versionOfApplicationMailSignature" = "버전";
+
+/* E-mail account is not set up. Please set up in settings app. */
+"setupEmailMessage"                 = "이메일 계정이 설정되지 않았습니다. 설정 앱에서 설정하세요.";
+
+/* Set up */
+"setupEmailConfirm"                 = "설정";
+
+/* Font Size */
+"fontSizeSettingTitle"              = "글꼴 크기";
+
+/* Line Height */
+"lineHeightSettingTitle"            = "라인 높이";
+
+/* Sample text . \nAdjust text size, line spacing and set it as your favorite character. */
+"fontSettingSampleTextTitle"        = "샘플 텍스트.\n텍스트 크기, 줄 간격을 조정하고 좋아하는 문자로 설정하십시오.";
+
+/* You reach the limit of adding background images. */
+"maxInputBackgroundAsk"             = "배경 이미지 추가 제한에 도달했습니다.";
+
+/* Share as Image */
+"shareAsImageTitle"                 = "이미지로 공유";
+
+/* Share as PDF */
+"sharePDFTitle"                     = "PDF로 공유";
+
+/* Bright Pink */
+"themeName0"                        = "Bright Pink";
+
+/* Neon Pink */
+"themeName1"                        = "Neon Pink";
+
+/* Hot Pink */
+"themeName2"                        = "Hot Pink";
+
+/* Spring Green */
+"themeName3"                        = "Spring Green";
+
+/* Neon Green */
+"themeName4"                        = "Neon Green";
+
+/* Maya Blue */
+"themeName5"                        = "Maya Blue";
+
+/* Tangerine */
+"themeName6"                        = "Tangerine";
+
+/* Midnight */
+"themeName7"                        = "Midnight";
+
+/* Year */
+"year"                              = "년";
+
+/* Month */
+"month"                             = "월";
+
+/* Day */
+"day"                               = "일";
+
+/* Hour */
+"hour"                              = "시";
+
+/* january */
+"january"                           = "일월";
+
+/* febuary */
+"febuary"                           = "이월";
+
+/* march */
+"march"                             = "삼월";
+
+/* april */
+"april"                             = "사월";
+
+/* may */
+"may"                               = "오월";
+
+/* june */
+"june"                              = "유월";
+
+/* july */
+"july"                              = "칠월";
+
+/* august */
+"august"                            = "팔월";
+
+/* september */
+"september"                         = "구월";
+
+/* october */
+"october"                           = "시월";
+
+/* november */
+"november"                          = "십일월";
+
+/* december */
+"december"                          = "십이월";
+
+/* %@ items found */
+"numberOfResults"                   = "%@ 개 항목을 찾았습니다.";
+
+/* Search diary */
+"searchDiaryPlaceHolder"            = "일기 검색";
+
+/* No Diary Found */
+"searchNoItemFound"                 = "일기를 찾을 수 없습니다";
+
+/* Male */
+"male"                              = "남성";
+
+/* Female */
+"female"                            = "여자";
+
+/* When did your love begin? */
+"startLoveSettingDetailTitle"       = "당신의 사랑은 언제 시작 되었습니까?";
+
+/* Create your passcode */
+"createPasscodeTitle"               = "암호 생성";
+
+/* Enter your passcode */
+"enterYourPasscodeTitle"            = "비밀번호를 입력하세요";
+
+/* Confirm your pincode */
+"confirmPincode"                    = "비밀번호 확인";
+
+/* Enter Passcode */
+"enterPasscode"                     = "비밀번호 입력";
+
+/* Set Passcode */
+"setPasscode"                       = "비밀번호 설정";
+
+/* Unlock with %@ */
+"usingSensorTitle"                  = "%@로 잠금 해제";
+
+/* Change passcode */
+"changePasscodeTitle"               = "비밀번호 변경";
+
+/* Turn off passcode */
+"turnOffPasscodeTitle"              = "암호 끄기";
+
+/* Are you want to delete it, this action cannot be restored */
+"deleteDiaryConfirm"                = "삭제 하시겠습니까?이 작업은 복원 할 수 없습니다.";
+
+/* Create new diary */
+"createNewDiary"                    = "새 일기 만들기";
+
+/* There is no image to show */
+"noImageTitle"                      = "표시 할 이미지가 없습니다";
+
+/* Privacy and Policy */
+"privacyAndPolicyLabel"             = "개인 정보 보호 및 정책";
+
+/* Lock Immediately */
+"lockImmediatelyTitle"              = "즉시 잠금";
+
+/* Valentine's Day */
+"valentineDayTitle"                 = "발렌타인 데이";
+
+/* White day */
+"whiteDayTitle"                     = "White day";
+
+/* 1st anniversary of love */
+"oneYearAnniversaryTitle"           = "사랑의 1 주년";
+
+/* 2nd anniversary of love */
+"twoYearAnniversaryTitle"           = "사랑의 2 주년";
+
+/* 3rd anniversary of love */
+"threeYearAnniversaryTitle"         = "사랑의 3 주년";
+
+/* Today */
+"todayLabel"                        = "오늘";
+
+/* Save */
+"saveLabel"                         = "저장";
+
+/* None */
+"none"                              = "없음";
+
+/* At event time */
+"atEventTime"                       = "이벤트 시간에";
+
+/* 5 minutes before */
+"fiveMinusBefore"                   = "5 분 전";
+
+/* 10 minutes before */
+"tenMinusBefore"                    = "10 분 전";
+
+/* 20 minutes before */
+"tweentyMinusBefore"                = "20 분 전";
+
+/* 30 minutes before */
+"thirtyMinusBefore"                 = "30 분 전";
+
+/* 1 hour before */
+"oneHourBefore"                     = "1 시간 전";
+
+/* 2 hours before */
+"twoHourBefor"                      = "2 시간 전";
+
+/* 3 hours before */
+"threeHourBefore"                   = "3 시간 전";
+
+/* 1 day before */
+"oneDayBefore"                      = "1 일전";
+
+/* 2 days before */
+"twoDayBefore"                      = "2 일전";
+
+/* 3 days before */
+"ThreeDayBefore"                    = "3 일전";
+
+/* 1 week before */
+"oneWeekBefore"                     = "1 주전";
+
+/* 2 weaks before */
+"twoWeekBefore"                     = "2 주전";
+
+/* 3 weaks before */
+"threeWeekBefore"                   = "3 주전";
+
+/* 1 month before */
+"oneMonthBefore"                    = "1 개월 전";
+
+/* 2 months before */
+"twoMonthBefore"                    = "2 개월 전";
+
+/* 3 months before */
+"threeMonthBefore"                  = "3 개월 전";
+
+/* 1 year before */
+"oneYearBefore"                     = "1 년전";
+
+/* 2 years before */
+"twoYearBefore"                     = "2 년전";
+
+/* Reminder */
+"reminderTypeTitle"                 = "조언";
+
+/* Discard Change */
+"discartChangeLabel"                = "변경 취소";
+
+/* Open */
+"openEventNotificationTitle"        = "열다";
+
+/* Search Events */
+"searchEventPlaceHolder"            = "이벤트 검색";
+
+/* Outdated Events */
+"outDateEventScreenTitle"           = "오래된 이벤트";
+
+/* You reach max selection */
+"reachChoseLimitError"              = "최대 선택에 도달했습니다.";
+
+/* New Event */
+"addNewEventTitle"                  = "새로운 이벤트";
+
+/* days ago */
+"dayAgo"                            = "일 전";
+
+/* days */
+"days"                              = "일";
+
+/* Title */
+"eventTitlePlaceHolder"             = "표제";
+
+/* Note */
+"eventDetailPlaceHolder"            = "노트";
+
+/* Pin */
+"pinTitle"                          = "핀";
+
+/* Date */
+"dateTitle"                         = "데이트";
+
+/* time */
+"timeTitle"                         = "시각";
+
+/* Reminder time */
+"reminderTimeTitle"                 = "알림 시간";
+
+/* There is no event to show */
+"noEventTitle"                      = "표시 할 이벤트가 없습니다.";
+
+/* You need to allow notification permission to create an Event with reminder. Please change the permission in the Settings app. */
+"requestNotificationMessageTitle"   = "알림이있는 이벤트를 만들려면 알림 권한을 허용해야합니다. 설정 앱에서 권한을 변경하세요.";
+
+"premiumTitle" = "프리미엄 사용자만을위한 기능";
+"unlimitBackgroundTitle" = "무제한 기념일 배경";
+"unlimitBackgroundDetailTitle" = "무제한 기념일 배경 이미지 추가.";
+"removeAdsTitle" = "광고 없음";
+"removeAdsDetailTitle" = "한 번의 클릭으로 모든 광고를 제거하십시오.";
+"moreFuncionTitle" = "더 많은 기능";
+"moreFuncionDetailTitle" = "향후 더 많은 기능.";
+"purchaseButtonTitle" = "프리미엄 잠금 해제";
+"restoreButtonTitle" = "구매 복원";
+
+/* ICloud backup */
+"ic01iCloudBackupSettingTitleLabel"          = "iCloud 백업 / 동기화";
+"ic01Title"                                  = "iCloud 백업";
+"ic01ExistsBackupStatus"                     = "백업 데이터";
+"ic01NotExistsBackupStatus"                  = "백업 데이터 없음";
+"ic01UpdateDate"                             = "업데이트 일시";
+"ic01CreateIcloudBackup"                     = "백업 데이터 작성하기";
+"ic01OverrideIcloudBackup"                   = "백업 덮어쓰기";
+"ic01RestoreFromIcloudBackup"                = "백업 복원하기";
+"ic01RemoveIcloudBackup"                     = "백업 삭제하기";
+"ic01OverrideDialogTitle"                    = "지금 이 앱의 데이터를 최신 백업 데이터로 합니다. 덮어쓰시겠습니까? 다시 취소하실 수는 없습니다.";
+"ic01OverrideDialogConfirmButtonTitle"       = "덮어쓰기";
+"ic01RestoreDialogTitle"                     = "백업에서 데이터를 복원합니다. 지금 이 앱에 있는 데이터는 삭제되고, 백업 데이터에 저장된 내용으로 덮어씁니다. 괜찮으시겠습니까? 한번 실행하시면 취소하실 수 없습니다.";
+"ic01RestoreDialogConfirmButtonTitle"        = "복원하기";
+"ic01RemoveDialogTitle"                      = "백업 데이터를 삭제합니다. 다시 취소하실  수 없으니 다시 한번 확인하시길 바랍니다.";
+"ic01RemoveDialogConfirmButtonTitle"         = "삭제하기.";
+"ic01DialogCancelTitle"                      = "취소";
+"ic01IcloudBackupErrorTitle"                 = "에러 발생";
+"ic01IcloudBackupNotAvailableErrorTitle"     = "iCloud 기능에 접근할 수 없습니다. 설정 앱의 Apple ID 항목을 선택하여 \"iCloud Drive\"를 켜서, 화면 아래에 있는 이 앱에의 권한을 ON으로 바꿔주십시오.";
+"ic01OldICloudBackupTitle"                   = "이전 iCloud 백업";
+"ic01ExistsOldBackupStatus"                  = "오래된 백업 데이터";
+"ic01ServerBusyCKErrorTitle"                 = "iCloud 서버를 일시적으로 이용할 수 없는 상태입니다. 나중에 다시 시도하세요.";
+"ic01RetryCKErrorTitle"                      = "%@초 후에 다시 시도하세요.";
+"ic01NotAuthenticatedCKErrorTitle"           = "iCloud를 이용할 수 없거나, iCloud에 로그인되어 있지 않습니다. iCloud 설정을 확인하세요. ";
+"ic01NetworkFailureCKErrorTitle"             = "iCloud 설정을 확인하세요. 네트워크 연결을 확인하세요.";
+"ic01QuotaExceededCKErrorTitle"              = "iCloud가 꽉 찼습니다. iCloud 디스크를 확인하세요.";
+"ic01ServiceUnavailableCKErrorTitle"         = "서비스는 현재 이용할 수 없습니다.";
+"backupContainTitle" = "백업에는 일기 및 이벤트 데이터 만 포함됩니다.";
+"feedbackDetailMessage" = "우리의 품질을 향상시키기 위해 귀하로부터 피드백을 받으면 좋을 것입니다.";
